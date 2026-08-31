@@ -1,27 +1,27 @@
 # Claim–Evidence Matrix
 
-This document will track every major claim in the treatise against external evidence. No claim is considered established merely because it appears in the source document.
+This document tracks major Holobiont claims against external evidence. The treatise is a hypothesis/specification, not established fact.
 
-| ID | Claim / hypothesis | Evidence for | Evidence against | Status | Confidence | Last reviewed |
+| ID | Claim / hypothesis | Evidence for | Evidence against / limits | Status | Confidence | Last reviewed |
 |---|---|---|---|---|---|---|
-| CH-001 | Specialist neural modules can provide useful task specialization | TBD | TBD | Unreviewed | — | — |
-| CH-002 | Learned latent bridges can communicate useful information between specialist models | TBD | TBD | Unreviewed | — | — |
-| CH-003 | Latent communication can transfer genuinely novel information to a receiving specialist | TBD | TBD | Unreviewed | — | — |
-| CH-004 | Shared lower-level parameters can provide a useful common representational substrate | TBD | TBD | Unreviewed | — | — |
-| CH-005 | A high shared-parameter ratio can preserve useful specialization | TBD | TBD | Unreviewed | — | — |
-| CH-006 | Continuous communication can preserve specialization with suitable regularization | TBD | TBD | Unreviewed | — | — |
-| CH-007 | Hypernetworks can encode enough information to regenerate large specialist models | TBD | TBD | Unreviewed | — | — |
-| CH-008 | Compact shadow copies can support functional specialist regeneration | TBD | TBD | Unreviewed | — | — |
-| CH-009 | Multiple specialists can reliably detect one corrupted specialist | TBD | TBD | Unreviewed | — | — |
-| CH-010 | Consensus among specialists improves correctness rather than only agreement | TBD | TBD | Unreviewed | — | — |
-| CH-011 | Distributed redundancy provides meaningful resilience under component failure | TBD | TBD | Unreviewed | — | — |
-| CH-012 | Common-mode failures can be sufficiently controlled to preserve fault tolerance | TBD | TBD | Unreviewed | — | — |
-| CH-013 | Distributed memory can preserve system continuity through component failure | TBD | TBD | Unreviewed | — | — |
-| CH-014 | The architecture can safely modify its own communication topology | TBD | TBD | Unreviewed | — | — |
-| CH-015 | Recursive self-rearchitecture can produce capabilities beyond fixed modular systems | TBD | TBD | Unreviewed | — | — |
-| CH-016 | A persistent narrative state can provide functional identity continuity | TBD | TBD | Unreviewed | — | — |
-| CH-017 | The architecture provides evidence relevant to machine consciousness | TBD | TBD | Unreviewed | — | — |
-| CH-018 | The architecture is fundamentally different from existing MoE/ensemble/multi-agent systems | TBD | TBD | Unreviewed | — | — |
+| CH-001 | Specialist neural modules can provide useful task specialization | MoE and modular/ensemble literature establishes useful specialization | Specialization alone is not novel; routing/communication costs remain | Strongly supported | High | 2026-09-01 |
+| CH-002 | Learned latent bridges can communicate useful information between specialist models | Recent latent-agent work reports gains from direct latent communication; model stitching shows representations can sometimes be functionally interchanged | Evidence is still early; much work is benchmark-specific and does not establish causal novelty transfer | Partially supported | Medium | 2026-09-01 |
+| CH-003 | Latent communication can transfer genuinely novel information to a receiving specialist | Latent communication systems show useful information exchange | No decisive causal test yet isolates novel information from shared priors, training leakage, or ordinary collaboration | Plausible hypothesis | Medium-low | 2026-09-01 |
+| CH-004 | Shared lower-level parameters can provide a useful common representational substrate | Model stitching/alignment and shared-backbone methods support partial interoperability | Shared structure may also increase correlated errors and common-mode failure | Strongly supported | High | 2026-09-01 |
+| CH-005 | A high shared-parameter ratio can preserve useful specialization | Shared pretrained bases + task-specific LoRA demonstrate strong specialization with small parameter deltas | This does not imply arbitrarily high sharing is compatible with independent cognition | Partially supported | Medium | 2026-09-01 |
+| CH-006 | Continuous communication can preserve specialization with suitable regularization | Multi-agent latent collaboration and expert consistency methods provide evidence of cooperative specialization | Communication can also reduce diversity; this tradeoff needs direct measurement | Plausible hypothesis | Medium-low | 2026-09-01 |
+| CH-007 | Hypernetworks can encode enough information to regenerate large specialist models | Hypernetworks generate target weights; task-conditioned hypernetworks can retain many task realizations in compressed regimes | Existing demonstrations do not establish high-fidelity reconstruction of arbitrary large specialists after destruction | Partially supported | Medium | 2026-09-01 |
+| CH-008 | Compact shadow copies can support functional specialist regeneration | Parameter-efficient adapters show that useful task adaptations can be very small | A small adaptation is not equivalent to a complete recoverable model state; robustness/OOD behavior may be lost | Plausible hypothesis | Medium-low | 2026-09-01 |
+| CH-009 | Multiple specialists can reliably detect one corrupted specialist | Deep ensembles provide useful uncertainty/diversity signals; ensemble disagreement can be informative | Correlated models can share the same wrong answer; malicious specialists can manipulate agreement | Partially supported | Medium | 2026-09-01 |
+| CH-010 | Consensus among specialists improves correctness rather than only agreement | Ensembles can improve accuracy and uncertainty | Agreement is not truth; correlated/shared priors can produce collective error | Partially supported | Medium | 2026-09-01 |
+| CH-011 | Distributed redundancy provides meaningful resilience under component failure | Replication, ensembles, and fault-tolerant distributed systems establish general redundancy benefits | Benefits depend strongly on independence and recovery assumptions | Strongly supported | High | 2026-09-01 |
+| CH-012 | Common-mode failures can be sufficiently controlled to preserve fault tolerance | Distributed-systems fault models provide mechanisms for independence and Byzantine resilience | Shared backbone, hypernetwork, memory, bridge, or data can defeat naive redundancy | Open / weakly supported | Medium-low | 2026-09-01 |
+| CH-013 | Distributed memory can preserve system continuity through component failure | Distributed storage/replication and external-memory architectures support persistence | Cognitive identity/semantic continuity is a stronger claim than data replication | Plausible hypothesis | Medium-low | 2026-09-01 |
+| CH-014 | The architecture can safely modify its own communication topology | Self-referential neural networks and self-improving agents demonstrate limited self-modification | Safety, regression prevention, and verification remain unresolved | Plausible hypothesis | Low-medium | 2026-09-01 |
+| CH-015 | Recursive self-rearchitecture can produce capabilities beyond fixed modular systems | Recent self-improving agent systems report iterative improvement and meta-level modification | Results are domain/benchmark dependent and do not yet establish open-ended improvement | Plausible hypothesis | Medium-low | 2026-09-01 |
+| CH-016 | A persistent narrative state can provide functional identity continuity | Persistent memory can preserve information/state | No established bridge from persistent state to subjective identity or consciousness | Speculative | Low | 2026-09-01 |
+| CH-017 | The architecture provides evidence relevant to machine consciousness | Some cognitive architectures use global integration/workspace concepts | Architecture-level coordination is not evidence of phenomenal consciousness | Speculative | Low | 2026-09-01 |
+| CH-018 | The architecture is fundamentally different from existing MoE/ensemble/multi-agent systems | Combination of latent communication, regeneration, fault tolerance, and self-rearchitecture could form a distinct systems architecture | Each major component has substantial precedent; novelty must come from the integrated mechanism and measurable emergent properties | Open / requires proof | Medium | 2026-09-01 |
 
 ## Rules
 
