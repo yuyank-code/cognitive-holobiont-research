@@ -41,6 +41,32 @@
 4. Regeneration should be evaluated as recovery of a specialist's behavior distribution, robustness, calibration, and latent representations—not merely benchmark accuracy.
 5. Consensus should be evaluated under correlated errors and adversarial specialists, not only independent model ensembles.
 
+### 2026-09-01 — Third/fourth substantive literature passes
+
+- Biological neural communication provides precedent for task-relevant information transfer, but does not establish arbitrary shared high-dimensional cognitive latent spaces.
+- Hypernetwork and self-healing results support a hierarchy of regeneration: checkpoint recovery, adapter regeneration, module regeneration, and full specialist reconstruction. Evidence is much stronger at the lower levels.
+- Modular self-healing neural networks are now an explicit baseline, so self-repair alone is not a sufficient novelty claim.
+- Weight-space diversity does not reliably imply functional diversity; future experiments must measure correlated behavior and failure, not just parameter distance.
+- The strongest possible Holobiont advantage may be distributed recovery of capabilities unavailable to any surviving component alone.
+
+### 2026-09-01 — Fifth substantive literature pass
+
+- ACL 2026 ConSensus reports 7.1% average gains from specialized multimodal agents plus hybrid fusion, supporting heterogeneous specialization and fusion but not truth guarantees.
+- ACL 2025 CONSENSAGENT and related 2026 work identify sycophancy and error cascades as serious multi-agent failure modes; Free-MAD explicitly removes consensus to avoid conformity and majority-vote weaknesses.
+- 2026 work on multi-agent collusion demonstrates that open-channel agents can coordinate belief manipulation, strengthening the requirement for an immune/security layer.
+- N-Version Programming with Coding Agents (2026) provides direct modern evidence that diversity can reduce failures while substantial common-mode failures persist. Nominal independence is therefore not a valid proxy for failure independence.
+- A 2026 survey of 1,250 arXiv papers separates bounded self-refinement from open-ended recursive self-improvement and identifies grounding, evaluator reliability, collapse dynamics, and compute as persistent limits.
+- Recursive Harness Self-Improvement shows bounded harness evolution can improve performance, but an independent open reproduction reports only partial replication and regression after further iterations. This is important negative/replication evidence.
+- Recuris demonstrates bounded recursive memory evolution with strong long-horizon benchmark gains, making evolving memory a more credible near-term mechanism than unrestricted self-rearchitecture.
+- AI4AI-Bench directly measures algorithm-design self-improvement and finds current agents remain far from the task optimum, strengthening the distinction between bounded improvement and genuine recursive improvement of the learning process.
+
+### Fifth-pass conclusions
+
+1. Consensus should no longer be modeled as intrinsically truth-seeking; it is an aggregation mechanism whose value depends on diversity, reliability estimation, and resistance to conformity/collusion.
+2. Fault tolerance must be parameterized by measured failure correlation, not number of organs.
+3. Recursive improvement should be decomposed into output refinement, memory/harness evolution, model-parameter modification, architecture modification, and learning-algorithm modification. Evidence strength falls sharply as the loop becomes more fundamental.
+4. The most promising near-term Holobiont mechanism may be distributed memory/skill evolution plus modular repair, while unrestricted self-rearchitecture remains a speculative endpoint.
+
 ### Next research priorities
 
 1. Extract every substantive claim from the treatise and map each to a claim ID.
@@ -49,7 +75,9 @@
 4. Identify competing architectures and terminology that may conceal equivalent prior work.
 5. Investigate causal tests for novel information transfer in latent communication.
 6. Quantify information-theoretic limits of specialist regeneration.
-7. Model correlated failure as a function of shared parameters, training data, and shared repair mechanisms.
+7. Model correlated failure as a function of shared parameters, training data, shared memory, and shared repair mechanisms.
 8. Compare Holobiont against modern MoE, ensembles, multi-agent debate, modular networks, and self-healing approaches under matched compute.
-9. Investigate whether shared-base + independent LoRA/adapters is a strong simpler baseline for the proposed architecture.
-10. Do not begin implementation until the evidence and falsification framework justify it.
+9. Investigate whether shared-base + independent LoRA/adapters is a strong simpler baseline.
+10. Reproduce key recursive-improvement claims under independent seeds and held-out evaluators.
+11. Test whether distributed recovery can restore capabilities unavailable to any surviving component.
+12. Do not begin implementation until the evidence and falsification framework justify it.
