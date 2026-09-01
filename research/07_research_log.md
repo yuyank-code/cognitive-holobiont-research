@@ -18,24 +18,33 @@
 - Key recurring conclusions: latent communication is feasible but novel-information transfer is unresolved; hypernetworks generate weights/adapters but full specialist regeneration is unproven; MoE is a major baseline; diversity must be measured functionally; consensus is not equivalent to truth; shared structure creates a central common-mode-failure tradeoff; unrestricted self-rearchitecture remains speculative.
 - Earlier passes also identified modular self-healing as a baseline and distributed recovery of unique capabilities as a potentially distinctive Holobiont test.
 
-### 2026-09-01 — Automation pass 08: latent interfaces, functional diversity, consensus, and recursive improvement
+### Automation pass 08
 
-- A 2026 survey organizes 18 latent-communication methods across embeddings, hidden states, KV caches, alignment, and fusion. This confirms latent communication is becoming a distinct research area and identifies cross-architecture alignment and latent-channel security as open problems.
-- K-V cache alignment work demonstrates high-bandwidth inter-model communication and soft-prompt skill transfer without changing the underlying pretrained parameters. This strengthens the case for a learned shared interface, not a shared internal representation.
-- The Vision Wormhole introduces a hub-and-spoke latent interface for heterogeneous VLMs and reports O(N) rather than O(N^2) alignment complexity. This is directly relevant to scalable Holobiont communication.
-- AAAI 2025 work shows task-loss-based model stitching can be a misleading measure of representational similarity; 2026 invariance-aware work further argues that forward compatibility can hide different information invariances. Successful stitching must therefore be treated as interface evidence, not semantic-equivalence evidence.
-- 2026 MoE studies find that weight-space diversity does not reliably create activation diversity and that multimodal training can overwrite previously induced specialization. Functional independence must therefore be measured behaviorally and under stress.
-- New multi-agent results show that aggregation can improve performance: ConSensus reports 7.1% average gains, and a learned consensus engine outperforms majority vote on several compact benchmarks. Byzantine-resilient protocols also show promise. These results support reliability-aware aggregation, but not the claim that consensus is inherently truth-seeking.
-- Hyperagents and related self-referential work show that the meta-level improvement mechanism itself can be made editable. This advances the technical plausibility of recursive self-modification, but there is still no strong evidence for safe, monotonic, open-ended architecture self-reconfiguration with retention of prior capabilities.
+- A 2026 survey organizes 18 latent-communication methods across embeddings, hidden states, KV caches, alignment, and fusion.
+- K-V cache alignment and hub-and-spoke latent interfaces strengthen the case for learned communication interfaces rather than forced shared internal representations.
+- Model-stitching evidence shows task-loss stitching can mislead similarity judgments; invariance-aware/bidirectional tests are required.
+- MoE evidence shows weight-space diversity does not reliably imply activation/functional diversity.
+- Reliability-aware aggregation and Byzantine defenses show promise, but consensus is not equivalent to truth.
+- Self-referential improvement mechanisms advance bounded recursive modification but not safe open-ended self-rearchitecture.
 
-### Automation-pass-08 conclusions
+### Automation pass 09 — causal latent audit and common-mode failure
 
-1. Replace the strong shared-latent-space hypothesis with a weaker shared-interface hypothesis: private internal representations plus learned translation may preserve specialization while enabling communication.
-2. Model stitching is not a standalone test of shared cognition; invariance-aware and bidirectional tests are needed.
-3. Define organ independence by failure statistics and functional behavior, not weight distance.
-4. Treat the epistemic layer as reliability/evidence management rather than consensus enforcement; disagreement and provenance should be retained.
-5. Hub-and-spoke latent interfaces are a concrete candidate for scalable communication, but information bottleneck, security, and novelty-of-information remain unresolved.
-6. The most demanding regeneration test remains recovery of a capability that is absent from all surviving components.
+- July 2026 causal-audit work directly challenges the inference from latent-channel benchmark gains to genuine novel information transfer. Controlled message replacements separate message presence, example-specific content, and additional-agent value; effects vary by model/task. CH-003 is therefore downgraded to unresolved/weakly supported pending stronger causal tests.
+- A separate 2026 latent-communication study finds that sparse latent channels can preserve more probe-detectable features than text under compression, but latent communication did not outperform text on its tested concept tasks; many text-lost features appeared to encode surface form rather than task-relevant semantics. This is a meaningful negative result.
+- The 2026 N-Version Programming with Coding Agents study evaluates 48 implementations from diverse agent/model/language configurations and finds substantial common-mode failure despite diversity, while majority triples materially reduce observed failures. This strengthens the case for redundancy but rejects naive independence assumptions. The campaign data are publicly archived on Zenodo.
+- AAAI 2026 and 2026 arXiv work on Byzantine-resilient LLM multi-agent protocols show that explicit filtering/protocol structure can suppress Byzantine influence under tested graph conditions. Other work shows communication topology and adversarial cheap-talk can still destabilize coordination.
+- Universal Hypernetworks for Arbitrary Models strengthens the evidence that one descriptor-conditioned generator can instantiate heterogeneous target architectures in tested regimes, but it does not establish lossless recovery of destroyed specialists or preservation of unique capabilities.
+- Self-Referential Graph Hypernetworks demonstrate bounded self-evolution in RL environments; this advances technical plausibility of self-modification but does not establish safe general recursive self-rearchitecture.
+
+### Automation-pass-09 conclusions
+
+1. Latent communication is strongly supported as an engineering mechanism; genuinely novel task-relevant information transfer remains unresolved and requires causal isolation.
+2. Latent bandwidth and probe-preserved features are not sufficient evidence of semantic/cognitive superiority over text.
+3. Common-mode failure must be modeled explicitly; diversity of model, agent, or language is insufficient when causes are shared.
+4. Reliability-aware/Byzantine filtering is more defensible than raw consensus, and disagreement/provenance should be preserved.
+5. Hypernetworks substantially strengthen the feasibility of compact specialist generation but not unique-capability recovery.
+6. Bounded self-modification is technically plausible; safe open-ended self-rearchitecture remains speculative.
+7. The strongest revised Holobiont hypothesis remains private specialist cognition + shared communication interface + epistemic/reliability layer + distributed evidence/memory + capability-level repair + controlled reconfiguration.
 
 ### Current next priorities
 
