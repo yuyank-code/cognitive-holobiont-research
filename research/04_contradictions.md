@@ -2,18 +2,47 @@
 
 This is a first-class research artifact. Evidence that weakens, contradicts, or places limits on a Holobiont claim must be preserved rather than filtered out.
 
-## Required record format
+## Run 17 additions
 
-### [CONTRADICTION-ID] Title
+### C-022 Stitchability does not imply shared latent geometry
+- **Holobiont claim:** Specialists need a shared representational substrate to communicate.
+- **Claim ID:** CH-002/CH-004
+- **Evidence challenging it:** 2026 model-stitching work finds heterogeneous foundation models can be stitched with suitable deep interface training even when their representations are not globally identical.
+- **Evidence supporting the original claim:** Shared backbones and aligned adapters can make interoperability efficient.
+- **Current interpretation:** Interface compatibility is sufficient for some communication; a global common latent space is not established as necessary.
+- **Resolution experiment:** Compare learned interface maps, forced shared latent spaces, and text communication at matched bandwidth/compute.
 
-- **Holobiont claim:**
-- **Claim ID:**
-- **Evidence challenging it:**
-- **Evidence supporting the original claim:**
-- **Methodological considerations:**
-- **Current interpretation:**
-- **What experiment would resolve the disagreement?**
-- **Sources:**
+### C-023 Specialist identity can be overwritten by shared training
+- **Holobiont claim:** Once specialists differentiate, shared learning preserves their specialization.
+- **Claim ID:** CH-005
+- **Evidence challenging it:** PMLR 2026 multimodal MoE experiments show specialization induced early can be overwritten by later multimodal training.
+- **Evidence supporting the original claim:** MoE/PEFT methods can maintain useful task-conditional specialization in bounded settings.
+- **Current interpretation:** Specialization is a dynamic state requiring monitoring and possibly explicit preservation mechanisms.
+- **Resolution experiment:** Measure specialist capability half-life under increasing shared-data, shared-memory, and communication coupling.
+
+### C-024 More agents are not necessarily more diverse than one model
+- **Holobiont claim:** Multiple organs intrinsically increase cognitive diversity.
+- **Claim ID:** CH-006/CH-018
+- **Evidence challenging it:** ACL 2026 matched study finds single-agent multi-output can exceed MAS semantic diversity.
+- **Evidence supporting the original claim:** Diverse agents can improve debate when initial hypotheses and confidence are preserved.
+- **Current interpretation:** Diversity is an output of conditioning and information visibility, not a guaranteed property of architectural multiplicity.
+- **Resolution experiment:** Compute-matched single-model multi-output vs independent specialists vs interacting specialists.
+
+### C-025 Collective inference need not converge to consensus
+- **Holobiont claim:** Consensus is the natural endpoint of distributed cognition.
+- **Claim ID:** CH-010
+- **Evidence challenging it:** Free-MAD reports gains with consensus removed; other work shows conformity and problem drift can harm multi-round debate.
+- **Evidence supporting the original claim:** Confidence-weighted debate can improve correctness in tested tasks.
+- **Current interpretation:** The Holobiont should preserve ranked hypotheses and dissent until a separately justified commitment/abstention step.
+- **Resolution experiment:** Compare consensus, score-based trajectory aggregation, confidence fusion, anti-conformity, and abstention under correlated errors.
+
+### C-026 Self-repair can regenerate function without regenerating learned knowledge
+- **Holobiont claim:** Biological-style self-repair supports cognitive regeneration.
+- **Claim ID:** CH-011/CH-007/CH-008
+- **Evidence challenging it:** Self-organising digital circuits and GNCA can reroute or reconstruct computational function after damage, but their target function is encoded in the task/training dynamics rather than proving recovery of unique learned semantic knowledge.
+- **Evidence supporting the original claim:** Distributed repair shows local rules can restore global function after unseen damage.
+- **Current interpretation:** Repair is established at the computational-function level; unique-capability regeneration remains a separate hypothesis.
+- **Resolution experiment:** Destroy a specialist whose capability is not individually present elsewhere, then test recovery against distributed-code, hypernetwork, and retraining controls.
 
 ## Run 16 additions
 
