@@ -1,4 +1,4 @@
-# Current Conclusions — 2026-09-07
+# Current Conclusions — 2026-09-08
 
 ## High-confidence conclusions
 
@@ -9,8 +9,11 @@
 5. Agreement/consensus is not equivalent to semantic truth; evidence-weighted inference, provenance, confidence, dissent preservation, and abstention are more defensible primitives.
 6. The shared-versus-independent structure tradeoff is a first-order design constraint, and shared training can actively overwrite specialization.
 7. Functional diversity cannot be inferred from parameter diversity, routing diversity, agent count, or one embedding metric alone.
-8. Latent communication is a credible engineering mechanism; causal evidence supports sender-specific information transfer in some controlled settings, but not as a universal property.
+8. Latent communication is a credible engineering mechanism; causal evidence supports sender/example-specific information transfer in some controlled settings, but not as a universal property.
 9. Raw agent count is a poor predictor of collective utility. Effective independent evidence/channel count is a more promising abstraction, though not yet a validated universal law.
+10. MoE expert routing is not equivalent to durable organ identity; specialization retention under continued training is itself an empirical variable.
+11. Large latent-channel performance effects are not sufficient evidence of novel information transfer; matched-cache/message controls are now a required causal standard.
+12. Communication density is not a proxy for distributed computation; topology and dependency structure matter.
 
 ## Medium-confidence conclusions
 
@@ -20,21 +23,24 @@
 4. Single-model multi-output/self-conditioning is a serious competitor to multi-agent diversity and must be a compute-matched baseline.
 5. Hypernetwork-generated specialization and bounded self-modification are increasingly supported, but full specialist regeneration and general recursive self-rearchitecture remain unresolved.
 6. Redundancy can reduce failure rates even under some correlated failures, but diversity must target causal failure mechanisms rather than model identity alone.
-7. Recursive memory/harness evolution under a stable meta-process is now supported by early multi-model, multi-benchmark evidence, but it is distinct from recursive rewriting of the core learner.
+7. Recursive memory/harness evolution under a stable meta-process is supported by early multi-model evidence, but it is distinct from recursive rewriting of the core learner.
 8. Self-organising computational systems can recover functions after damage, strengthening the mechanistic case for distributed repair while leaving unique learned-capability regeneration open.
-9. Multi-agent uncertainty should model communication ancestry and topology rather than final outputs only; recent trajectory-level uncertainty work supports this direction.
+9. Multi-agent uncertainty should model communication ancestry and topology rather than final outputs only.
+10. Adaptive topology can reduce communication cost and sometimes improve performance, but safe autonomous topology control remains unresolved.
+11. Path-constrained routing and explicit modularity objectives suggest specialization can be stabilized, but no general guarantee of persistent cognitive organs exists.
 
 ## Important methodological constraints
 
 1. Model stitching success is not sufficient evidence for semantic equivalence or shared cognition. Stitch objective and depth matter.
 2. Latent communication performance gains are not sufficient evidence for genuinely novel information transfer. Sender/example pairing and receiver-isolation controls are required.
 3. Latent-channel probe information is not automatically task-relevant semantic information.
-4. Organ independence should be measured using correlated failures, behavioral/capability diversity, OOD/adversarial transfer, calibration correlation, and interventions—not weight distance alone.
+4. Organ independence should be measured using correlated failures, behavioral/capability diversity, OOD/adversarial transfer, calibration correlation, longitudinal retention, and interventions—not weight distance alone.
 5. Consensus experiments must include correlated, colluding, specification-driven, identity-driven, and useful-minority errors.
-6. Regeneration must be evaluated on rare capabilities, robustness, calibration, OOD behavior, and behavior distributions, not benchmark accuracy alone.
+6. Regeneration must be evaluated on rare capabilities, robustness, calibration, OOD behavior, conflict fidelity, and behavior distributions, not benchmark accuracy alone.
 7. Multi-agent diversity claims must be compared against single-model multi-output/self-conditioning at matched compute and information visibility.
 8. Recursive improvement claims must include long-run capability retention, regression, distribution shift, and evaluator-grounding tests.
 9. Confidence must be calibrated for the interaction regime; correlated evidence can make apparently high confidence misleading.
+10. Specialization claims must be tested after continued shared training and after deliberate perturbation of routing and representations.
 
 ## Unresolved
 
@@ -48,6 +54,9 @@
 - Whether recursive architecture modification can improve capability while retaining old capabilities over many generations.
 - Whether the complete Holobiont lifecycle has a measurable advantage that cannot be decomposed into existing MoE + ensemble + communication + memory + repair components.
 - Whether an apparently successful collective capability remains present when communication topology is randomized or when specialists are replaced by a single model with equivalent compute and self-conditioning.
+- Whether specialist identity remains causally stable under long-horizon joint training.
+- Whether latent communication gains persist under strict example-matched causal controls.
+- Whether topology optimization can improve collective computation without increasing common-mode vulnerability.
 
 ## Current strongest Holobiont hypothesis
 
