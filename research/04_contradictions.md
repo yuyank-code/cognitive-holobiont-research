@@ -2,71 +2,66 @@
 
 This is a first-class research artifact. Evidence that weakens, contradicts, or places limits on a Holobiont claim must be preserved rather than filtered out.
 
-## Run 18 additions
+## Run 19 additions
 
-### C-027 Raw agent count is a poor proxy for collective capacity
-- **Claim:** More organs should produce more collective cognition.
-- **Claim IDs:** CH-006/CH-021/CH-018
-- **Evidence challenging it:** 2026 information-theoretic MAS scaling work reports strong diminishing returns for homogeneous agents and proposes an effective channel count K*; 2 heterogeneous agents can match or exceed many homogeneous agents in tested settings.
-- **Evidence supporting the broader architecture:** Heterogeneity can preserve complementary evidence channels.
-- **Current interpretation:** The relevant resource is effective independent evidence, not agent count.
+### C-034 MoE routing stability is not the same as durable cognitive specialization
+- **Claim:** A routed expert is a stable cognitive organ.
+- **Claim IDs:** CH-001/CH-005/CH-019
+- **Evidence challenging it:** Expert Collapse and Compositional Failure shows induced specialization can be overwritten by subsequent multimodal training; EMO exists partly because ordinary MoE expert subsets can degrade when independently composed.
+- **Evidence supporting:** Path-Constrained MoE improves cross-layer routing consistency and robustness to routing perturbations.
+- **Current interpretation:** Routing stability is a useful mechanism but organ identity must be evaluated longitudinally and causally.
 
-### C-028 Diversity metrics can disagree with functional independence
-- **Claim:** Low embedding similarity means useful specialist independence.
-- **Claim IDs:** CH-006/CH-022
-- **Evidence challenging it:** Representational-collapse work finds encoder choice materially changes measured similarity; BOUNDARY_SYNC finds communication effects depend on modality and group size.
-- **Current interpretation:** Diversity must be triangulated across representation, behavior, failure correlation, and intervention.
+### C-035 Large latent-channel effects can occur without sender/example-specific transfer
+- **Claim:** A large latent relay gain proves latent thought transmission.
+- **Claim IDs:** CH-003
+- **Evidence challenging it:** August 2026 matched-cache audit reports cells where zeroing a relay causes a large drop while mismatched caches have little effect; the effect is therefore not necessarily example-specific. The July audit similarly separates other-example and example-specific components.
+- **Evidence supporting:** In receiver-private-information regimes, matched-vs-mismatched audits can show strong sender/example pairing effects.
+- **Current interpretation:** Novel-information transfer is conditional and must be causally isolated.
 
-### C-029 Communication can both homogenize and diversify depending on topology/group size
-- **Claim:** Communication monotonically increases coupling.
-- **Claim IDs:** CH-006/CH-014/CH-022
-- **Evidence:** BOUNDARY_SYNC reports homogenization for some group sizes and diversification estimates for smaller groups; ACL 2026 Diversity Collapse reports dense-topology convergence.
-- **Current interpretation:** Coupling is a regime variable, not a universal monotone law. The architecture needs a phase-diagram-style analysis.
+### C-036 Communication density can coexist with zero distributed computation
+- **Claim:** More communication creates collective computation.
+- **Claim IDs:** CH-006/CH-014/CH-018
+- **Evidence challenging it:** SILO-BENCH reports active communication with severe failure on high-complexity distributed tasks and collapse beyond 50 agents for its hardest level.
+- **Evidence supporting:** TopoDIM shows learned sparse/heterogeneous topology can improve efficiency and modestly improve performance.
+- **Current interpretation:** Topology quality and information routing, not message count, are the relevant variables.
 
-### C-030 Confidence is not automatically reliable evidence
-- **Claim:** Specialist confidence can be directly used for aggregation.
-- **Claim IDs:** CH-009/CH-010/CH-020/CH-023
-- **Evidence challenging it:** ACL 2026 multi-turn calibration work shows interaction can degrade calibration; Confident Liar reports role-dependent relationships between confidence and reasoning quality.
-- **Evidence supporting it:** Diversity + calibrated confidence improves debate in controlled benchmarks.
-- **Current interpretation:** Confidence must be calibrated for the interaction regime and dependency structure before being treated as epistemic weight.
-
-### C-031 Truthful evidence fragments can form a false collective belief
-- **Claim:** Evidence aggregation plus truthful messages is sufficient for collective truth.
-- **Claim IDs:** CH-009/CH-010/CH-012
-- **Evidence challenging it:** Lying with Truths demonstrates coordinated montage of truthful fragments can manipulate downstream beliefs.
-- **Current interpretation:** Provenance and local truth are insufficient; the fusion layer must reason about composition, dependency, omission, and coalition structure.
-
-### C-032 Hypernetwork scaling is not capability regeneration
-- **Claim:** Better hypernetwork scaling closes the regeneration problem.
+### C-037 Hypernetwork scaling does not close capability regeneration
+- **Claim:** Scalable adapter generation implies specialist regeneration.
 - **Claim IDs:** CH-007/CH-008
-- **Evidence challenging it:** 2026 hypernetwork scaling laws show scalable knowledge injection, but do not demonstrate recovery after unique information is destroyed.
-- **Current interpretation:** The remaining bottleneck is information preservation/distributed coding, not merely parameter generation capacity.
+- **Evidence challenging it:** Scaling-law work establishes generation/adaptation scaling but not recovery after unique capability destruction; Override Gap shows strong pretrained priors can suppress injected knowledge.
+- **Current interpretation:** Regeneration remains a distributed-information and behavioral-equivalence problem.
 
-### C-033 Recursive memory evolution is not recursive core-model self-improvement
-- **Claim:** Bounded memory/harness evolution demonstrates open-ended RSI.
-- **Claim IDs:** CH-015
-- **Evidence challenging it:** Recuris uses a fixed meta-agent and validation-gated skill-memory updates; this is materially narrower than unrestricted self-rewriting.
-- **Current interpretation:** Bounded recursive evolution is supported; open-ended recursive architecture modification remains speculative.
+### C-038 Consensus can be useful without being the epistemic objective
+- **Claim:** Collective truth requires agreement.
+- **Claim IDs:** CH-010/CH-012
+- **Evidence challenging it:** Free-MAD improves debate without consensus; Byzantine-weighted methods improve reliability through weighting rather than truth-by-majority.
+- **Current interpretation:** Consensus is an output coordination primitive, not a truth criterion.
 
 ## Prior contradictions retained
 
-### C-022 Stitchability does not imply shared latent geometry
-Heterogeneous models can be stitched with suitable interface training. A global shared latent space is not established as necessary.
+### C-027 Raw agent count is a poor proxy for collective capacity
+Effective independent evidence is more relevant than number of organs.
 
-### C-023 Specialist identity can be overwritten by shared training
-Specialization can decay or be overwritten under later shared training. Organ identity should be monitored dynamically.
+### C-028 Diversity metrics can disagree with functional independence
+Embedding similarity alone is insufficient.
 
-### C-024 More agents are not necessarily more diverse than one model
-Single-model multi-output/self-conditioning remains a serious baseline and can exceed multi-agent diversity in tested tasks.
+### C-029 Communication can both homogenize and diversify depending on topology/group size
+Coupling is a regime variable, not a universal monotone law.
 
-### C-025 Collective inference need not converge to consensus
-Consensus-free and evidence-weighted approaches can outperform forced agreement.
+### C-030 Confidence is not automatically reliable evidence
+Confidence must be calibrated for the interaction regime and dependency structure.
 
-### C-026 Self-repair can regenerate function without regenerating learned knowledge
-Computational repair does not establish recovery of unique learned semantic capability.
+### C-031 Truthful evidence fragments can form a false collective belief
+Provenance and local truth are insufficient; composition and dependency matter.
 
-### C-016 through C-021
-Previous latent-causality, functional-module, behavioral-regeneration, dynamic-weight, debate-diversity, and abstention contradictions remain active and are not superseded.
+### C-032 Hypernetwork scaling is not capability regeneration
+The information-preservation bottleneck remains.
+
+### C-033 Recursive memory evolution is not recursive core-model self-improvement
+Bounded recursive evolution is materially narrower than unrestricted self-rewriting.
+
+### C-022 through C-026
+Stitchability does not imply shared latent geometry; specialist identity can be overwritten; more agents need not be more diverse than one model; collective inference need not converge to consensus; self-repair does not establish learned-knowledge regeneration.
 
 ## Recurring adversarial questions
 
@@ -82,3 +77,6 @@ Previous latent-causality, functional-module, behavioral-regeneration, dynamic-w
 10. Does recursive modification improve capability without destructive drift?
 11. Does effective channel count predict collective benefit better than agent count?
 12. Can diversity metrics detect causal independence rather than representational distance only?
+13. Does specialist identity survive continued joint training?
+14. Does a latent relay transfer sender/example-specific information under receiver isolation?
+15. Can the system convert communication into exact distributed computation rather than conversational coordination?
