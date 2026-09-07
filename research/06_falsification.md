@@ -1,69 +1,49 @@
 # Falsification Framework
 
-The architecture must be exposed to experiments capable of disproving its central claims.
+The program prioritizes experiments that could make the Holobiont hypothesis fail. The treatise is not evidence.
 
-## Run 18 additions
+## Run 19 additions
 
-### Effective-channel hypothesis
+### F19.1 — Longitudinal specialist-identity test
+Train modular systems jointly for many phases after inducing specialization. Compare standard MoE, Path-Constrained routing, EMO-style modularity, and independently trained specialists. Measure retention of causal task capability, routing stability, representational drift, cross-specialist interference, and post-damage recovery.
 
-Measure raw N and K_eff before/after communication. Test whether task performance, robustness, and marginal utility correlate more strongly with K_eff than N. Include homogeneous and heterogeneous agents and single-model multi-output baselines.
+**Falsifies strong organ-identity claim if:** specialization repeatedly disappears under continued training or if simpler routing mechanisms reproduce the same retention.
 
-### Coupling phase diagram
+### F19.2 — Strict latent-information causal audit
+For each latent relay, test: matched sender/example, mismatched sender/example, zeroed message, moment-matched random message, and receiver-private-information vs non-private-information regimes. Repeat across architectures/projectors.
 
-Sweep group size, topology density, communication frequency, and bandwidth. Estimate coupling ratio C together with behavioral diversity and joint failure correlation. The hypothesis is not that communication always helps or always hurts, but that useful regimes exist and are identifiable.
+**Falsifies universal latent-thought claim if:** sender/example pairing effects disappear under replication or occur only when the receiver already has equivalent information.
 
-### Diversity-metric triangulation
+### F19.3 — Communication phase diagram
+Sweep group size, graph density, bandwidth, message frequency, and specialist correlation. Measure task utility, K_eff, capability diversity, epistemic diversity, representation coupling, joint failure probability, and coordination overhead.
 
-Require at least four classes of measurement: representation similarity, behavioral disagreement, failure correlation, and intervention-based causal dependence. A system cannot claim independence from a single embedding metric.
+**Falsifies communication-control hypothesis if:** no reproducible regime exists in which communication raises useful collective capability without proportional coupling/failure cost.
 
-### Dependency-aware confidence
+### F19.4 — Consensus vs dependency-aware dissent
+Create tasks with independent correct evidence, correlated false evidence, colluding specialists, specification errors, and useful minority specialists. Compare majority vote, confidence weighting, Byzantine weighting, provenance-aware fusion, Free-MAD-like trajectory scoring, and abstention.
 
-Correlate confidence with correctness after conditioning on shared evidence and communication ancestry. Compare naive confidence weighting with dependency-aware weighting and abstention.
+**Falsifies truth-oriented fusion hypothesis if:** dependency-aware methods do not outperform simple consensus or systematically suppress useful minorities.
 
-### Truthful-collusion attack
+### F19.5 — Distributed capability-regeneration benchmark
+Encode a rare capability at controlled redundancy levels across specialists and a generator. Destroy specialists at test time. Compare exact regeneration, behavior-level recovery, OOD robustness, calibration, conflict fidelity, and collateral regressions against standard hypernetwork/LoRA and independent-copy baselines.
 
-Construct coalitions that provide individually true fragments designed to produce a false global inference. Test whether provenance-only, confidence-only, majority, dependency-aware fusion, and contradiction-aware fusion can resist the attack.
+**Falsifies strong regeneration claim if:** recovery requires an intact copy of the capability or is no better than standard redundancy/generation under matched information budgets.
 
-## Existing framework
+### F19.6 — Recursive meta-evolution retention
+Allow validated changes to routing, memory, topology, and repair policies over many generations. Require improvement on new tasks plus non-regression on a frozen historical suite and adversarial tests.
 
-### Latent communication
+**Falsifies bounded recursive-rearchitecture claim if:** gains are transient, evaluator-specific, or accompanied by irreversible capability loss.
 
-A latent bridge should not be considered successful merely because the receiver improves. Controls must determine whether information was genuinely transmitted, already present in the receiver, leaked through shared training data, or reproduced by ordinary ensemble effects.
+## Existing decisive experiments
 
-Required controls: valid sender/example message; mismatched sender/example; zero/no message; bandwidth/norm-matched random message; other-example message; cross-agent/cross-model controls where feasible.
+- Compute-matched single-model multi-output/self-conditioning baseline.
+- MoE vs heterogeneous independent specialists vs shared-backbone+adapters.
+- Text communication vs latent communication at matched transmitted information.
+- Randomized topology and communication ablations.
+- Common-mode failure injection: shared data, shared backbone, shared memory, shared router, shared evaluator, shared generator.
+- Specialist deletion followed by repair/regeneration.
+- Correlated Byzantine/collusion attacks.
 
-### Specialization
+## Evaluation principle
 
-Compare independently trained specialists, shared-backbone specialists, MoE experts, adapters, and Holobiont organs. Measure task specialization, intervention-defined capability, error correlation, OOD correlation, and epistemic diversity. Do not equate parameter distance with independence.
-
-### Consensus
-
-Measure accuracy, calibration, diversity, minority preservation, correlated errors, communication cost, and adversarial susceptibility. Include diversity-aware initialization, calibrated confidence, evidence-weighted fusion, and abstention baselines. Agreement alone is not a success criterion.
-
-### Regeneration
-
-Destroy or remove an organ under controlled conditions. Compare no-repair, ordinary retraining, checkpoint restoration, distillation, hypernetwork reconstruction, and distributed-code reconstruction. Evaluate capability equivalence, robustness, calibration, OOD behavior, conflict with surviving priors, collateral regression, and resource cost. Parameter similarity is not sufficient evidence of regeneration.
-
-### Common-mode failure
-
-Corrupt shared components independently: backbone, bridge, memory, hypernetwork, routing, evaluator, constitution, and topology controller. Measure both individual failure probability and pairwise/joint failure correlation. Vary redundancy and estimate the point at which additional redundancy ceases to reduce system risk.
-
-### Immune system
-
-Introduce benign unusual specialists, naturally uncertain specialists, corrupted specialists, poisoned specialists, strategically malicious specialists, and truthful-but-misleading coalitions. Measure false quarantine, missed detection, evidence-lineage contamination, and useful-minority loss.
-
-### Communication topology
-
-Vary topology family, edge count, message frequency, and bandwidth independently. Test whether adaptive topology improves the utility/cost Pareto frontier while preserving diversity and security. Attack the topology controller itself and test recovery from routing paralysis.
-
-### Abstention
-
-Construct beyond-capability and ambiguous tasks with calibrated ground truth. Compare forced-answer consensus with confidence-aware abstention. Measure whether abstention reduces common-mode hallucination without excessively suppressing solvable tasks.
-
-### Recursive modification
-
-Require self-modification to improve a predefined held-out objective while preserving prior capabilities. Test for capability regression, reward hacking, training-distribution overfitting, irreversible architectural damage, and deceptive evaluation behavior. Dynamic-weight methods must be evaluated on held-out distributions rather than training loss alone.
-
-### Novelty test
-
-Before claiming that Holobiont is a new architecture, reproduce strong baselines from MoE, multi-agent, ensemble, model-stitching, modular-network, parameter-efficient adaptation, and self-healing literature. Match total compute, active parameters, communication bandwidth, memory, and redundancy. Include a single-model multi-output/self-conditioning baseline.
+A positive result is only meaningful if it survives matched compute, memory, bandwidth, information, training-data, and redundancy budgets. Full-system novelty requires an advantage that cannot be decomposed into an existing component's known benefit.
