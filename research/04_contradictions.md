@@ -2,66 +2,59 @@
 
 This is a first-class research artifact. Evidence that weakens, contradicts, or places limits on a Holobiont claim must be preserved rather than filtered out.
 
-## Run 19 additions
+## Run 20 additions
 
-### C-034 MoE routing stability is not the same as durable cognitive specialization
-- **Claim:** A routed expert is a stable cognitive organ.
-- **Claim IDs:** CH-001/CH-005/CH-019
-- **Evidence challenging it:** Expert Collapse and Compositional Failure shows induced specialization can be overwritten by subsequent multimodal training; EMO exists partly because ordinary MoE expert subsets can degrade when independently composed.
-- **Evidence supporting:** Path-Constrained MoE improves cross-layer routing consistency and robustness to routing perturbations.
-- **Current interpretation:** Routing stability is a useful mechanism but organ identity must be evaluated longitudinally and causally.
-
-### C-035 Large latent-channel effects can occur without sender/example-specific transfer
-- **Claim:** A large latent relay gain proves latent thought transmission.
+### C-039 Causal latent-transfer effects are real but not universal
+- **Claim:** Latent relay gains generally demonstrate novel sender-specific information transfer.
 - **Claim IDs:** CH-003
-- **Evidence challenging it:** August 2026 matched-cache audit reports cells where zeroing a relay causes a large drop while mismatched caches have little effect; the effect is therefore not necessarily example-specific. The July audit similarly separates other-example and example-specific components.
-- **Evidence supporting:** In receiver-private-information regimes, matched-vs-mismatched audits can show strong sender/example pairing effects.
-- **Current interpretation:** Novel-information transfer is conditional and must be causally isolated.
+- **Evidence challenging it:** Two 2026 causal audits find cells where message presence or other-example content explains substantial gains, and effects vary across model scale/task.
+- **Evidence supporting:** Both audits find sender/example-specific effects when the receiver genuinely needs sender-private information.
+- **Current interpretation:** Novel latent information transfer is now supported conditionally, not universally. The correct question is when the channel reduces receiver uncertainty about information unavailable elsewhere.
 
-### C-036 Communication density can coexist with zero distributed computation
-- **Claim:** More communication creates collective computation.
-- **Claim IDs:** CH-006/CH-014/CH-018
-- **Evidence challenging it:** SILO-BENCH reports active communication with severe failure on high-complexity distributed tasks and collapse beyond 50 agents for its hardest level.
-- **Evidence supporting:** TopoDIM shows learned sparse/heterogeneous topology can improve efficiency and modestly improve performance.
-- **Current interpretation:** Topology quality and information routing, not message count, are the relevant variables.
+### C-040 Communication can fail at the integration stage even when information is acquired
+- **Claim:** Giving specialists access to distributed information is sufficient for distributed cognition.
+- **Claim IDs:** CH-006/CH-025
+- **Evidence challenging it:** SILO-BENCH finds active communication and acquisition of relevant information followed by failure to synthesize distributed state; hardest tasks collapse at scale.
+- **Evidence supporting:** Some adaptive topologies and task-structured communication improve efficiency/performance.
+- **Current interpretation:** A Holobiont needs an explicit integration mechanism; communication bandwidth alone is insufficient.
 
-### C-037 Hypernetwork scaling does not close capability regeneration
-- **Claim:** Scalable adapter generation implies specialist regeneration.
-- **Claim IDs:** CH-007/CH-008
-- **Evidence challenging it:** Scaling-law work establishes generation/adaptation scaling but not recovery after unique capability destruction; Override Gap shows strong pretrained priors can suppress injected knowledge.
-- **Current interpretation:** Regeneration remains a distributed-information and behavioral-equivalence problem.
+### C-041 Uncertainty is path/topology dependent
+- **Claim:** Specialist confidence/final-output uncertainty can be aggregated independently.
+- **Claim IDs:** CH-009/CH-023
+- **Evidence challenging it:** MATU identifies cascading uncertainty, communication-path variability, and topology diversity as distinct sources of reliability variation.
+- **Current interpretation:** Fusion should weight dependency structure and execution trajectory, not just marginal confidence.
 
-### C-038 Consensus can be useful without being the epistemic objective
-- **Claim:** Collective truth requires agreement.
-- **Claim IDs:** CH-010/CH-012
-- **Evidence challenging it:** Free-MAD improves debate without consensus; Byzantine-weighted methods improve reliability through weighting rather than truth-by-majority.
-- **Current interpretation:** Consensus is an output coordination primitive, not a truth criterion.
+### C-042 Training-free alignment does not establish universal interoperability
+- **Claim:** A portable latent bridge can connect arbitrary specialists.
+- **Claim IDs:** CH-002/CH-024
+- **Evidence challenging it:** StateBridge is promising but tested on limited model families/tasks; model-stitching work shows stitch training objective and depth strongly affect success.
+- **Current interpretation:** Interface compatibility is empirical and should be tested pairwise/regionally, not assumed globally.
+
+### C-043 Byzantine filtering can improve reliability without establishing truth
+- **Claim:** Byzantine-resilient consensus is a truth mechanism.
+- **Claim IDs:** CH-010/CH-026
+- **Evidence challenging it:** SAC improves suppression of malicious influence, but robust agreement only protects against modeled adversarial behavior; correlated truthful-but-wrong evidence and specification errors remain distinct.
+- **Current interpretation:** Byzantine robustness is a fault-containment property, not an epistemic guarantee.
 
 ## Prior contradictions retained
 
-### C-027 Raw agent count is a poor proxy for collective capacity
-Effective independent evidence is more relevant than number of organs.
+### C-034 MoE routing stability is not the same as durable cognitive specialization
+Induced specialization can be overwritten by subsequent multimodal training.
 
-### C-028 Diversity metrics can disagree with functional independence
-Embedding similarity alone is insufficient.
+### C-035 Large latent-channel effects can occur without sender/example-specific transfer
+A relay effect can survive mismatched examples; large accuracy gains do not identify the information source.
 
-### C-029 Communication can both homogenize and diversify depending on topology/group size
-Coupling is a regime variable, not a universal monotone law.
+### C-036 Communication density can coexist with zero distributed computation
+SILO-BENCH demonstrates active communication without successful distributed integration.
 
-### C-030 Confidence is not automatically reliable evidence
-Confidence must be calibrated for the interaction regime and dependency structure.
+### C-037 Hypernetwork scaling does not close capability regeneration
+Adapter generation is not recovery of unique destroyed capability.
 
-### C-031 Truthful evidence fragments can form a false collective belief
-Provenance and local truth are insufficient; composition and dependency matter.
+### C-038 Consensus can be useful without being the epistemic objective
+Consensus is a coordination primitive, not a truth criterion.
 
-### C-032 Hypernetwork scaling is not capability regeneration
-The information-preservation bottleneck remains.
-
-### C-033 Recursive memory evolution is not recursive core-model self-improvement
-Bounded recursive evolution is materially narrower than unrestricted self-rewriting.
-
-### C-022 through C-026
-Stitchability does not imply shared latent geometry; specialist identity can be overwritten; more agents need not be more diverse than one model; collective inference need not converge to consensus; self-repair does not establish learned-knowledge regeneration.
+### C-027 through C-033
+Raw agent count is a poor proxy for capacity; diversity metrics can disagree; communication can homogenize or diversify; confidence is not automatically reliable; truthful fragments can form false collective beliefs; hypernetwork scaling is not regeneration; recursive memory evolution is not unrestricted core-model RSI.
 
 ## Recurring adversarial questions
 
@@ -80,3 +73,6 @@ Stitchability does not imply shared latent geometry; specialist identity can be 
 13. Does specialist identity survive continued joint training?
 14. Does a latent relay transfer sender/example-specific information under receiver isolation?
 15. Can the system convert communication into exact distributed computation rather than conversational coordination?
+16. Does topology-aware uncertainty predict failure better than output confidence alone?
+17. Can training-free bridges generalize across model families without task-specific alignment?
+18. Can Byzantine filtering remain reliable when honest agents share the same wrong evidence or specification?
