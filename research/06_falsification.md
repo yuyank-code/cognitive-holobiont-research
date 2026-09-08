@@ -2,40 +2,41 @@
 
 The program prioritizes experiments that could make the Holobiont hypothesis fail. The treatise is not evidence.
 
-## Run 19 additions
+## Run 20 additions
 
-### F19.1 — Longitudinal specialist-identity test
-Train modular systems jointly for many phases after inducing specialization. Compare standard MoE, Path-Constrained routing, EMO-style modularity, and independently trained specialists. Measure retention of causal task capability, routing stability, representational drift, cross-specialist interference, and post-damage recovery.
+### F20.1 — Receiver-isolated latent information bound
+Construct tasks where a unique fact exists only in the sender's private input. Compare matched sender/example, mismatched sender/example, zeroed, and moment-matched random latent payloads. Measure receiver uncertainty reduction and final-task benefit.
 
-**Falsifies strong organ-identity claim if:** specialization repeatedly disappears under continued training or if simpler routing mechanisms reproduce the same retention.
+**Falsifies strong latent-transfer claim if:** matched sender-specific payloads do not produce reproducible information gain when the receiver lacks the information elsewhere.
 
-### F19.2 — Strict latent-information causal audit
-For each latent relay, test: matched sender/example, mismatched sender/example, zeroed message, moment-matched random message, and receiver-private-information vs non-private-information regimes. Repeat across architectures/projectors.
+### F20.2 — Distributed integration bottleneck test
+Give identical distributed facts to (a) a single model with a larger context, (b) independent agents with text communication, (c) latent communication, and (d) a structured shared-state coordinator. Match total tokens/compute. Separately measure acquisition and integration errors.
 
-**Falsifies universal latent-thought claim if:** sender/example pairing effects disappear under replication or occur only when the receiver already has equivalent information.
+**Falsifies Holobiont distributed-computation advantage if:** the architecture never beats the single-model or simpler structured-state baseline on integration after matching resources.
 
-### F19.3 — Communication phase diagram
-Sweep group size, graph density, bandwidth, message frequency, and specialist correlation. Measure task utility, K_eff, capability diversity, epistemic diversity, representation coupling, joint failure probability, and coordination overhead.
+### F20.3 — Topology-aware uncertainty calibration
+Run identical tasks over multiple communication graphs and repeated stochastic executions. Compare output-only confidence against trajectory/topology-aware uncertainty. Inject correlated failures and common evidence.
 
-**Falsifies communication-control hypothesis if:** no reproducible regime exists in which communication raises useful collective capability without proportional coupling/failure cost.
+**Falsifies topology-aware reliability hypothesis if:** topology/trajectory features do not improve calibration or selective prediction over output-only confidence.
 
-### F19.4 — Consensus vs dependency-aware dissent
-Create tasks with independent correct evidence, correlated false evidence, colluding specialists, specification errors, and useful minority specialists. Compare majority vote, confidence weighting, Byzantine weighting, provenance-aware fusion, Free-MAD-like trajectory scoring, and abstention.
+### F20.4 — Interface portability matrix
+Evaluate training-free and learned latent bridges across model families, scales, modalities, and stitch depths. Measure transfer, degradation, adaptation cost, and cross-task generalization.
 
-**Falsifies truth-oriented fusion hypothesis if:** dependency-aware methods do not outperform simple consensus or systematically suppress useful minorities.
+**Falsifies portable-interface hypothesis if:** successful interoperability requires substantial task/model-specific retraining in most heterogeneous pairs.
 
-### F19.5 — Distributed capability-regeneration benchmark
-Encode a rare capability at controlled redundancy levels across specialists and a generator. Destroy specialists at test time. Compare exact regeneration, behavior-level recovery, OOD robustness, calibration, conflict fidelity, and collateral regressions against standard hypernetwork/LoRA and independent-copy baselines.
+### F20.5 — Honest-correlated-error Byzantine test
+Create groups where honest specialists share a systematically wrong source, while a minority specialist holds correct evidence. Compare majority, confidence weighting, Byzantine filtering, provenance-aware fusion, and abstention.
 
-**Falsifies strong regeneration claim if:** recovery requires an intact copy of the capability or is no better than standard redundancy/generation under matched information budgets.
+**Falsifies truth-oriented immune-system claim if:** dependency-aware methods cannot preserve correct minorities or distinguish correlated honest error from independent evidence.
 
-### F19.6 — Recursive meta-evolution retention
-Allow validated changes to routing, memory, topology, and repair policies over many generations. Require improvement on new tasks plus non-regression on a frozen historical suite and adversarial tests.
+## Existing decisive experiments retained
 
-**Falsifies bounded recursive-rearchitecture claim if:** gains are transient, evaluator-specific, or accompanied by irreversible capability loss.
-
-## Existing decisive experiments
-
+- Longitudinal specialist-identity test.
+- Strict latent-information causal audit.
+- Communication phase diagram.
+- Consensus vs dependency-aware dissent.
+- Distributed capability-regeneration benchmark.
+- Recursive meta-evolution retention.
 - Compute-matched single-model multi-output/self-conditioning baseline.
 - MoE vs heterogeneous independent specialists vs shared-backbone+adapters.
 - Text communication vs latent communication at matched transmitted information.
