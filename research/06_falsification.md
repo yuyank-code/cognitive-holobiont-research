@@ -2,37 +2,45 @@
 
 The program prioritizes experiments that could make the Holobiont hypothesis fail. The treatise is not evidence.
 
-## Run 20 additions
+## Run 22 additions
 
-### F20.1 — Receiver-isolated latent information bound
-Construct tasks where a unique fact exists only in the sender's private input. Compare matched sender/example, mismatched sender/example, zeroed, and moment-matched random latent payloads. Measure receiver uncertainty reduction and final-task benefit.
+### F22.1 — Selector bottleneck decomposition
+Generate candidate solutions using homogeneous and heterogeneous specialists, then cross the candidates with independent selectors of varying quality. Match total compute. Measure where diversity helps, hurts, or becomes irrelevant.
 
-**Falsifies strong latent-transfer claim if:** matched sender-specific payloads do not produce reproducible information gain when the receiver lacks the information elsewhere.
+**Falsifies a strong diversity claim if:** after controlling selector quality, heterogeneous candidates provide no advantage over matched homogeneous/self-conditioned candidates.
 
-### F20.2 — Distributed integration bottleneck test
-Give identical distributed facts to (a) a single model with a larger context, (b) independent agents with text communication, (c) latent communication, and (d) a structured shared-state coordinator. Match total tokens/compute. Separately measure acquisition and integration errors.
+### F22.2 — Effective-channel causal validation
+Estimate K* or related effective-channel measures, then deliberately introduce correlated failures, shared evidence, model cloning, and independent model substitutions. Test whether the metric predicts marginal utility and failure diversity out of sample.
 
-**Falsifies Holobiont distributed-computation advantage if:** the architecture never beats the single-model or simpler structured-state baseline on integration after matching resources.
+**Falsifies K* as a useful abstraction if:** it does not predict collective gains or correlated failure under interventions better than raw agent count/simple correlation baselines.
 
-### F20.3 — Topology-aware uncertainty calibration
-Run identical tasks over multiple communication graphs and repeated stochastic executions. Compare output-only confidence against trajectory/topology-aware uncertainty. Inject correlated failures and common evidence.
+### F22.3 — Distributed-state integration benchmark
+Use tasks where each specialist receives indispensable private facts. Compare single-model large-context, text-MAS, latent-MAS, structured shared-state, and Holobiont-style interfaces under matched total information and compute. Separately score acquisition, integration, and termination.
 
-**Falsifies topology-aware reliability hypothesis if:** topology/trajectory features do not improve calibration or selective prediction over output-only confidence.
+**Falsifies distributed-computation advantage if:** the Holobiont never beats the simplest matched integration baseline on exact tasks.
 
-### F20.4 — Interface portability matrix
-Evaluate training-free and learned latent bridges across model families, scales, modalities, and stitch depths. Measure transfer, degradation, adaptation cost, and cross-task generalization.
+### F22.4 — Long-horizon topology stability test
+Run open-ended coordination while adaptively rewiring the graph. Measure whether topology changes preserve capability, calibration, and diversity rather than producing hub dominance, drift, or communication explosion.
 
-**Falsifies portable-interface hypothesis if:** successful interoperability requires substantial task/model-specific retraining in most heterogeneous pairs.
+**Falsifies safe adaptive-topology hypothesis if:** utility gains consistently require unstable topology, uncontrolled coupling, or worse correlated-failure rates.
 
-### F20.5 — Honest-correlated-error Byzantine test
-Create groups where honest specialists share a systematically wrong source, while a minority specialist holds correct evidence. Compare majority, confidence weighting, Byzantine filtering, provenance-aware fusion, and abstention.
+### F22.5 — Specialist causal identity test
+After creating specialists, continue shared training, perturb routing, ablate suspected causal circuits, and substitute parameters. Track capability-specific interventions over time.
 
-**Falsifies truth-oriented immune-system claim if:** dependency-aware methods cannot preserve correct minorities or distinguish correlated honest error from independent evidence.
+**Falsifies organ identity hypothesis if:** specialization is explained by transient routing/geometry and disappears under mild continuation or intervention.
+
+### F22.6 — Selection versus synthesis replication
+Replicate selection-bottleneck results using independent selectors, ground-truth tasks, and non-LLM judges. Compare generate-then-select, debate, synthesis, majority vote, and dependency-aware fusion.
+
+**Falsifies selection-bottleneck claim if:** the crossover disappears under independent evaluation or does not replicate outside judge-dependent settings.
 
 ## Existing decisive experiments retained
-
+- Receiver-isolated latent information bound.
+- Distributed integration bottleneck test.
+- Topology-aware uncertainty calibration.
+- Interface portability matrix.
+- Honest-correlated-error Byzantine test.
 - Longitudinal specialist-identity test.
-- Strict latent-information causal audit.
 - Communication phase diagram.
 - Consensus vs dependency-aware dissent.
 - Distributed capability-regeneration benchmark.
