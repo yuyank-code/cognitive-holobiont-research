@@ -1,4 +1,4 @@
-# Current Conclusions — 2026-09-08
+# Current Conclusions — 2026-09-11
 
 ## High-confidence conclusions
 
@@ -6,14 +6,16 @@
 2. Heterogeneous models can be made interoperable through learned interface maps/stitching without requiring one globally shared latent geometry.
 3. Hypernetworks can generate neural weights or parameter-efficient adaptations, but this does not establish lossless regeneration of arbitrary unique capabilities.
 4. Ensembles and heterogeneous aggregation can improve reliability in bounded settings, but correlated/common-cause errors remain a major limitation.
-5. Agreement/consensus is not equivalent to semantic truth; evidence-weighted inference, provenance, confidence, dissent preservation, and abstention are more defensible primitives.
+5. Agreement/consensus is not equivalent to semantic truth; evidence-weighted inference, provenance, confidence, dissent preservation, selection, and abstention are more defensible primitives.
 6. The shared-versus-independent structure tradeoff is a first-order design constraint, and shared training can actively overwrite specialization.
 7. Functional diversity cannot be inferred from parameter diversity, routing diversity, agent count, or one embedding metric alone.
-8. Latent communication is a credible engineering mechanism; causal evidence supports sender/example-specific information transfer in some controlled settings, but not as a universal property.
+8. Latent communication is a credible engineering mechanism and recent causal audits support sender/example-specific transfer in receiver-private-information regimes, but latent relay gains are not universally sender-specific.
 9. Raw agent count is a poor predictor of collective utility. Effective independent evidence/channel count is a more promising abstraction, though not yet a validated universal law.
 10. MoE expert routing is not equivalent to durable organ identity; specialization retention under continued training is itself an empirical variable.
-11. Large latent-channel performance effects are not sufficient evidence of novel information transfer; matched-cache/message controls are now a required causal standard.
-12. Communication density is not a proxy for distributed computation; topology and dependency structure matter.
+11. Large latent-channel performance effects are not sufficient evidence of novel information transfer; matched message controls are now a required causal standard.
+12. Communication density is not a proxy for distributed computation; topology, integration, and dependency structure matter.
+13. Candidate diversity and selection/integration quality are separable bottlenecks. Diversity can help or hurt depending on whether the selector can exploit it.
+14. Long-horizon coordination remains substantially harder than short-horizon information exchange; current evidence does not support naive scaling as a route to collective cognition.
 
 ## Medium-confidence conclusions
 
@@ -23,11 +25,13 @@
 4. Single-model multi-output/self-conditioning is a serious competitor to multi-agent diversity and must be a compute-matched baseline.
 5. Hypernetwork-generated specialization and bounded self-modification are increasingly supported, but full specialist regeneration and general recursive self-rearchitecture remain unresolved.
 6. Redundancy can reduce failure rates even under some correlated failures, but diversity must target causal failure mechanisms rather than model identity alone.
-7. Recursive memory/harness evolution under a stable meta-process is supported by early multi-model evidence, but it is distinct from recursive rewriting of the core learner.
+7. Recursive memory/harness evolution under a stable meta-process is supported by early evidence, but it is distinct from recursive rewriting of the core learner.
 8. Self-organising computational systems can recover functions after damage, strengthening the mechanistic case for distributed repair while leaving unique learned-capability regeneration open.
 9. Multi-agent uncertainty should model communication ancestry and topology rather than final outputs only.
 10. Adaptive topology can reduce communication cost and sometimes improve performance, but safe autonomous topology control remains unresolved.
 11. Path-constrained routing and explicit modularity objectives suggest specialization can be stabilized, but no general guarantee of persistent cognitive organs exists.
+12. Effective-channel count is a useful candidate abstraction for independent evidence, but it should not be equated with causal independence until validated under interventions.
+13. Selection/integration quality may be a stronger design lever than generator diversity in some pipelines; this requires independent replication.
 
 ## Important methodological constraints
 
@@ -41,6 +45,8 @@
 8. Recursive improvement claims must include long-run capability retention, regression, distribution shift, and evaluator-grounding tests.
 9. Confidence must be calibrated for the interaction regime; correlated evidence can make apparently high confidence misleading.
 10. Specialization claims must be tested after continued shared training and after deliberate perturbation of routing and representations.
+11. Selection quality must be independently evaluated; judge-dependent wins are not sufficient evidence of general collective advantage.
+12. Long-horizon claims require open-ended or multi-stage tasks, not only short generate-then-synthesize benchmarks.
 
 ## Unresolved
 
@@ -55,12 +61,14 @@
 - Whether the complete Holobiont lifecycle has a measurable advantage that cannot be decomposed into existing MoE + ensemble + communication + memory + repair components.
 - Whether an apparently successful collective capability remains present when communication topology is randomized or when specialists are replaced by a single model with equivalent compute and self-conditioning.
 - Whether specialist identity remains causally stable under long-horizon joint training.
-- Whether latent communication gains persist under strict example-matched causal controls.
+- Whether latent communication gains persist under strict example-matched causal controls across additional model families.
 - Whether topology optimization can improve collective computation without increasing common-mode vulnerability.
+- Whether selection-bottleneck effects replicate under independent, non-LLM evaluation.
+- Whether effective channel count predicts causal failure diversity rather than only statistical output correlation.
 
 ## Current strongest Holobiont hypothesis
 
-A potentially useful collective architecture may consist of functionally identifiable heterogeneous specialists with private internal representations, sparse/adaptive interoperable communication interfaces, explicit epistemic metadata/provenance, dependency-aware evidence fusion, distributed memory/evidence, common-mode-failure detection, capability-level regeneration, calibrated abstention, and a stable meta-process that can evolve routing/memory/repair policies without unrestricted rewriting of the core learner. This remains a hypothesis, not a validated architecture.
+A potentially useful collective architecture may consist of causally identifiable heterogeneous specialists with private internal representations, sparse/adaptive interoperable communication interfaces, explicit epistemic metadata/provenance, dependency-aware evidence selection/fusion, distributed memory/evidence, common-mode-failure detection, capability-level regeneration, calibrated abstention, and a stable meta-process that can evolve routing/memory/repair policies without unrestricted rewriting of the core learner. This remains a hypothesis, not a validated architecture.
 
 ## Research posture
 
