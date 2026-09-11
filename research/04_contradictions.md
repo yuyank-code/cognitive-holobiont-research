@@ -2,36 +2,41 @@
 
 This is a first-class research artifact. Evidence that weakens, contradicts, or places limits on a Holobiont claim must be preserved rather than filtered out.
 
-## Run 22 additions
+## Run 23 additions
 
-### C-044 Latent transfer is conditional, not a generic property of latent relays
-- **Claim:** Latent relay gains generally demonstrate novel sender-specific information transfer.
-- **Evidence challenging it:** Zhang & Emu and Cheng et al. find substantial regimes where message presence or other-example information explains much of the effect; effects vary by model/task and receiver-private-information condition.
-- **Evidence supporting:** Both causal audits identify sender/example-specific benefit when the receiver actually lacks the required information.
-- **Current interpretation:** Use conditional sender-specific information gain as the target; do not infer mechanism from aggregate accuracy.
+### C-049 Latent communication can be useful while universal latent compatibility remains false
+- **Claim:** A successful latent relay implies a shared semantic latent substrate.
+- **Evidence challenging it:** Interlat relies on learned interfaces, supervised separation/plan alignment and bounded model/task families; its authors explicitly position the work as a feasibility study.
+- **Evidence supporting:** Interlat reports cross-family communication, perturbation sensitivity and performance gains over text-based/single-agent baselines.
+- **Current interpretation:** Treat latent communication as a learned protocol/interface. Do not assume arbitrary pairwise latent compatibility or a universal common latent space.
 
-### C-045 Diversity can be wasted at the selector/integration stage
-- **Claim:** More heterogeneous specialists necessarily improve collective performance.
-- **Evidence challenging it:** Selection Bottleneck reports that diversity can hurt under weak synthesis/selection and that independent judging attenuates headline gains.
-- **Evidence supporting:** Effective-channel work finds heterogeneous evidence can beat homogeneous scaling.
-- **Current interpretation:** Generator diversity and integration quality are separate variables; the latter may dominate.
+### C-050 Routing can fail before collective cognition begins
+- **Claim:** Adding more specialists increases accessible collective capability.
+- **Evidence challenging it:** LatentGate reports that embedding-based routers can collapse semantically similar but functionally distinct agents and lose OOD routing quality.
+- **Evidence supporting:** Lightweight capability-aware probing with whitening substantially improves reported routing accuracy at low latency.
+- **Current interpretation:** Capability-aware routing is part of the cognitive substrate; raw semantic similarity is insufficient.
 
-### C-046 Effective channel count is promising but not yet causal independence
-- **Claim:** K* is a universal measure of cognitive independence.
-- **Evidence challenging it:** K* is architecture/task dependent and dependence estimators may capture statistical rather than causal independence.
-- **Current interpretation:** Treat K* as a candidate abstraction and validate against intervention-based failure diversity.
+### C-051 Diversity can be destroyed downstream by weak selection
+- **Claim:** Diverse specialists naturally yield better collective answers.
+- **Evidence challenging it:** Selection Bottleneck reports large differences between selection and synthesis and 53–67% attenuation under independent evaluation.
+- **Evidence supporting:** Strong selectors can exploit heterogeneous candidate quality.
+- **Current interpretation:** Generator diversity and integration competence are independent variables; selection must be independently evaluated.
 
-### C-047 Long-horizon coordination remains weak despite communication
-- **Claim:** Better communication alone should unlock distributed cognition.
-- **Evidence challenging it:** SILO-BENCH, MAS-BENCH, and ALEM show persistent integration/scaling failures.
-- **Current interpretation:** A Holobiont needs an explicit distributed-state/integration mechanism and termination protocol.
+### C-052 Communication can create problem drift
+- **Claim:** More rounds of agent communication should improve collective reasoning.
+- **Evidence challenging it:** Stay Focused documents measurable drift across ten tasks; the proposed mitigation fixes only a subset.
+- **Evidence supporting:** Communication can improve bounded reasoning tasks when feedback is useful and anchored.
+- **Current interpretation:** Persistent task anchoring, progress tests and termination/rollback are architectural requirements.
 
-### C-048 MoE expert labels do not imply semantic organs
-- **Claim:** routed experts are naturally equivalent to cognitive organs.
-- **Evidence challenging it:** Expert Collapse and geometry-based analyses show specialization can be overwritten and routing can be explained by hidden-state geometry without stable semantic domains.
-- **Current interpretation:** Organ identity must be intervention-defined and longitudinal.
+### C-053 Topology has no universally dominant coordination regime
+- **Claim:** A single Holobiont topology should be optimal.
+- **Evidence challenging it:** DESBench reports different trade-offs for centralized, hierarchical, heterarchical and holonic coordination.
+- **Current interpretation:** The architecture should permit objective- and fault-dependent topology switching rather than hard-coding one organizational form.
 
 ## Prior contradictions retained
+
+### C-044–C-048
+Latent transfer is conditional; diversity can be wasted at selection; K* is not yet causal independence; communication does not automatically yield long-horizon distributed computation; MoE expert labels do not imply semantic organs.
 
 ### C-039–C-043
 Causal latent-transfer effects are real but not universal; communication can fail at integration; uncertainty is path/topology dependent; training-free alignment does not establish universal interoperability; Byzantine filtering does not establish truth.
@@ -63,3 +68,6 @@ Raw agent count is a poor proxy for capacity; diversity metrics can disagree; co
 18. Can Byzantine filtering remain reliable when honest agents share the same wrong evidence or specification?
 19. Does selection quality explain most apparent diversity benefit?
 20. Does long-horizon coordination retain gains after communication and memory budgets are matched?
+21. Does capability-aware routing reduce collective regret rather than only improve route classification?
+22. Can persistent task anchoring prevent communication-induced drift without suppressing useful exploration?
+23. Can topology switching improve utility while preserving fault isolation and avoiding controller common-mode failure?
