@@ -36,23 +36,31 @@
 - Universal Hypernetworks for Arbitrary Models strengthens the evidence that one descriptor-conditioned generator can instantiate heterogeneous target architectures in tested regimes, but it does not establish lossless recovery of destroyed specialists or preservation of unique capabilities.
 - Self-Referential Graph Hypernetworks demonstrate bounded self-evolution in RL environments; this advances technical plausibility of self-modification but does not establish safe general recursive self-rearchitecture.
 
-### Automation-pass-09 conclusions
+### Automation pass 10 — latent interface maturity and integration bottleneck
 
-1. Latent communication is strongly supported as an engineering mechanism; genuinely novel task-relevant information transfer remains unresolved and requires causal isolation.
-2. Latent bandwidth and probe-preserved features are not sufficient evidence of semantic/cognitive superiority over text.
-3. Common-mode failure must be modeled explicitly; diversity of model, agent, or language is insufficient when causes are shared.
-4. Reliability-aware/Byzantine filtering is more defensible than raw consensus, and disagreement/provenance should be preserved.
-5. Hypernetworks substantially strengthen the feasibility of compact specialist generation but not unique-capability recovery.
-6. Bounded self-modification is technically plausible; safe open-ended self-rearchitecture remains speculative.
-7. The strongest revised Holobiont hypothesis remains private specialist cognition + shared communication interface + epistemic/reliability layer + distributed evidence/memory + capability-level repair + controlled reconfiguration.
+- Interlat (ACL 2026) strengthens the empirical case for heterogeneous hidden-state communication; StateBridge adds evidence that training-free alignment can work across model families; a 2026 survey/framework organizes 18 methods and identifies alignment, security, compression, and latent-CoT interpretation as open issues.
+- Vision Wormhole provides a hub-and-spoke precedent with O(N) alignment complexity. This creates a new explicit trade-off for the Holobiont: scaling communication topology can reduce pairwise interface cost while increasing common-mode exposure through the hub/codec.
+- Problem Drift (EACL Findings 2026) shows that long multi-agent interaction can move away from the original objective; DRIFTPolicy only partially mitigates this. Task anchoring, progress verification, and termination are therefore elevated to core architectural requirements.
+- The Selection Bottleneck study reinforces that diversity does not guarantee improvement: aggregation/selection quality can determine whether diversity helps or hurts. Independent/verifiable selection must therefore be separated from generator diversity.
+- Scientific Reports 2026 self-healing neural networks strengthen the bounded repair baseline, but the evidence remains far from unique capability regeneration.
+- Universal Hypernetworks strengthen the generation/adaptation side of the regeneration hypothesis but do not remove the information-theoretic limit on recovering unique destroyed information.
+
+### Automation-pass-10 conclusions
+
+1. Latent communication is now an experimentally credible engineering primitive across several independent approaches; universal latent interoperability remains unproven.
+2. The scientific bottleneck has shifted from “can agents communicate?” toward “does communication deliver causally necessary information and produce reliable distributed computation?”
+3. Selection, objective retention, and termination are separate mechanisms from generation diversity and must be measured independently.
+4. Hub-and-spoke latent interfaces offer a scalability path but create a common-mode failure/security trade-off.
+5. Self-healing is credible for bounded modular repair; capability resurrection remains unproven.
+6. Hypernetworks strengthen compact capability generation but cannot recover information absent from surviving system state without an external information source.
+7. The strongest current Holobiont hypothesis is: private causal specialists + capability-aware routing + selective latent interface + provenance/dependency-aware evidence + independent selection/verifier + task anchoring/termination + distributed capability traces + repair + validation-gated reconfiguration.
+8. The novelty claim remains unvalidated until this integrated system beats compute-, bandwidth-, memory-, information-, and redundancy-matched MoE, ensemble, text-MAS, latent-MAS, model-stitching, and self-healing baselines on distributed-computation and correlated-failure tests.
 
 ### Current next priorities
 
-1. Formalize a shared-interface vs shared-representation benchmark at matched communication bandwidth.
-2. Run causal novel-information tests for latent communication with post-training sender-only facts and matched controls.
-3. Build a common-mode-failure benchmark varying shared weights, data, memory, routing, and repair generators independently.
-4. Compare majority, learned reliability aggregation, evidence-preserving aggregation, and Byzantine filters under correlated/colluding errors.
-5. Establish information-theoretic lower bounds for regenerating specialists and measure loss of rare/OOD capabilities.
-6. Test distributed capability recovery after specialist destruction against checkpoint, adapter, and hypernetwork baselines.
-7. Reproduce recursive self-modification results using held-out evaluators and capability-retention suites.
-8. Continue literature expansion before implementation; no architecture should be treated as validated merely because its components have individually demonstrated feasibility.
+1. Causal task-information tests for latent communication with receiver-private information and sender-message swaps.
+2. Hub common-mode failure/security tests versus pairwise and sparse hybrid latent topologies.
+3. Independent selection replication using exact/verifiable tasks rather than only LLM judges.
+4. Long-horizon drift/termination experiments with objective anchors and progress gates.
+5. Distributed capability-recovery curves varying the amount of surviving information and testing rare/OOD capabilities.
+6. Continue literature expansion before implementation; no architecture should be treated as validated merely because its components have individually demonstrated feasibility.
