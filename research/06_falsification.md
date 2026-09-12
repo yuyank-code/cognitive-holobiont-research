@@ -34,6 +34,33 @@ Replicate selection-bottleneck results using independent selectors, ground-truth
 
 **Falsifies selection-bottleneck claim if:** the crossover disappears under independent evaluation or does not replicate outside judge-dependent settings.
 
+## Run 10 additions
+
+### F10.1 — Causal task-information latent-transfer test
+Give the receiver private information X_r and keep a sender-private fact in the sender state M_i. Compare intact messages, sender-message swaps, randomized states, receiver-only controls, and no-sender controls. Estimate whether `I(Y;M_i | X_r,Z_r)` corresponds to actual marginal task improvement.
+
+**Falsifies task-information claim if:** apparent latent gains disappear when sender-private information and receiver-private information are explicitly separated.
+
+### F10.2 — Hub common-mode stress test
+Compare O(N) hub-and-spoke latent communication with O(N^2) pairwise interfaces and sparse hybrid graphs under equal bandwidth. Corrupt the shared hub/codec and separately corrupt individual links.
+
+**Falsifies the hub-scaling hypothesis if:** hub efficiency gains are consistently dominated by common-mode failure/security costs.
+
+### F10.3 — Drift-control causal test
+Run identical long-horizon tasks with no anchor, periodic task anchors, progress verifiers, and termination gates. Measure drift rate, utility, communication cost, and false termination.
+
+**Falsifies the drift-control mechanism if:** anchoring/termination does not reduce drift without unacceptable utility loss.
+
+### F10.4 — Independent selection replication
+Evaluate generator diversity with exact/verifiable tasks and independent selectors that did not participate in candidate generation. Compare majority, synthesis, judge selection, calibrated reliability weighting, and dependency-aware fusion.
+
+**Falsifies the selection-bottleneck hypothesis if:** the effect vanishes under independent evaluation.
+
+### F10.5 — Capability regeneration boundary test
+Create specialists with controlled redundancy levels. Delete specialists and compare checkpoint restoration, adapter reconstruction, hypernetwork generation, and distributed traces. Test common, rare, OOD, calibration, and conflict behavior.
+
+**Falsifies meaningful regeneration if:** recovery is explained entirely by surviving generic priors/checkpoints and no controlled unique-capability information is recovered.
+
 ## Existing decisive experiments retained
 - Receiver-isolated latent information bound.
 - Distributed integration bottleneck test.
@@ -49,7 +76,7 @@ Replicate selection-bottleneck results using independent selectors, ground-truth
 - MoE vs heterogeneous independent specialists vs shared-backbone+adapters.
 - Text communication vs latent communication at matched transmitted information.
 - Randomized topology and communication ablations.
-- Common-mode failure injection: shared data, shared backbone, shared memory, shared router, shared evaluator, shared generator.
+- Common-mode failure injection: shared data, shared backbone, shared memory, shared router, shared evaluator, shared generator, shared latent hub/codec.
 - Specialist deletion followed by repair/regeneration.
 - Correlated Byzantine/collusion attacks.
 
