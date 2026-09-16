@@ -2,38 +2,32 @@
 
 This is a first-class research artifact. Evidence that weakens, contradicts, or places limits on a Holobiont claim must be preserved rather than filtered out.
 
-## Run 23 additions
+## Pass 09 additions — 2026-09-17
 
-### C-049 Latent communication can be useful while universal latent compatibility remains false
-- **Claim:** A successful latent relay implies a shared semantic latent substrate.
-- **Evidence challenging it:** Interlat relies on learned interfaces, supervised separation/plan alignment and bounded model/task families; its authors explicitly position the work as a feasibility study.
-- **Evidence supporting:** Interlat reports cross-family communication, perturbation sensitivity and performance gains over text-based/single-agent baselines.
-- **Current interpretation:** Treat latent communication as a learned protocol/interface. Do not assume arbitrary pairwise latent compatibility or a universal common latent space.
+### C-054 Latent payload requirements depend on receiver context
+- **Claim challenged:** A fixed latent representation/compression ratio is an intrinsic measure of communication quality.
+- **Evidence:** June 2026 heterogeneous latent-communication work distinguishes context-aware transfer, where the receiver already has the input, from context-unaware transfer, where contextual knowledge itself must be transmitted. The information structure and useful payload density differ between regimes.
+- **Interpretation:** Communication utility must be conditioned on receiver-private information. Compression numbers are not portable across protocols without specifying what the receiver already knows.
 
-### C-050 Routing can fail before collective cognition begins
-- **Claim:** Adding more specialists increases accessible collective capability.
-- **Evidence challenging it:** LatentGate reports that embedding-based routers can collapse semantically similar but functionally distinct agents and lose OOD routing quality.
-- **Evidence supporting:** Lightweight capability-aware probing with whitening substantially improves reported routing accuracy at low latency.
-- **Current interpretation:** Capability-aware routing is part of the cognitive substrate; raw semantic similarity is insufficient.
+### C-055 Heterogeneous latent transfer does not imply a universal latent language
+- **Claim challenged:** If different models exchange hidden states successfully, they must share a common latent geometry.
+- **Evidence:** Interlat and dense heterogeneous KV alignment use explicit learned transformations/interfaces. Successful cross-model transfer therefore demonstrates interoperability under an interface, not universal raw-state compatibility.
+- **Interpretation:** The Holobiont should use typed/learned interfaces and treat representation alignment as an engineering layer. A single universal latent space is no longer a required hypothesis.
 
-### C-051 Diversity can be destroyed downstream by weak selection
-- **Claim:** Diverse specialists naturally yield better collective answers.
-- **Evidence challenging it:** Selection Bottleneck reports large differences between selection and synthesis and 53–67% attenuation under independent evaluation.
-- **Evidence supporting:** Strong selectors can exploit heterogeneous candidate quality.
-- **Current interpretation:** Generator diversity and integration competence are independent variables; selection must be independently evaluated.
+### C-056 Communication capacity can remain high while collective computation fails
+- **Claim challenged:** Increasing latent bandwidth or communication density should close the distributed reasoning gap.
+- **Evidence:** SILO-BENCH and MAS-BENCH show active communication with severe failure on tasks requiring global composition; scaling agent count can worsen performance.
+- **Interpretation:** Information transport, information acquisition, and computation/integration must be evaluated separately.
 
-### C-052 Communication can create problem drift
-- **Claim:** More rounds of agent communication should improve collective reasoning.
-- **Evidence challenging it:** Stay Focused documents measurable drift across ten tasks; the proposed mitigation fixes only a subset.
-- **Evidence supporting:** Communication can improve bounded reasoning tasks when feedback is useful and anchored.
-- **Current interpretation:** Persistent task anchoring, progress tests and termination/rollback are architectural requirements.
-
-### C-053 Topology has no universally dominant coordination regime
-- **Claim:** A single Holobiont topology should be optimal.
-- **Evidence challenging it:** DESBench reports different trade-offs for centralized, hierarchical, heterarchical and holonic coordination.
-- **Current interpretation:** The architecture should permit objective- and fault-dependent topology switching rather than hard-coding one organizational form.
+### C-057 Repair is not resurrection
+- **Claim challenged:** A self-healing network demonstrates recovery of a lost specialist capability.
+- **Evidence:** SHNN restores damaged network behavior through local patching on small image datasets, but does not establish recovery of information absent from all surviving components.
+- **Interpretation:** Functional repair and information-theoretic capability recovery remain separate claims.
 
 ## Prior contradictions retained
+
+### C-049–C-053
+Latent communication can be useful while universal compatibility remains false; routing can fail before collective cognition begins; diversity can be destroyed downstream by weak selection; communication can create problem drift; no single topology is universally dominant.
 
 ### C-044–C-048
 Latent transfer is conditional; diversity can be wasted at selection; K* is not yet causal independence; communication does not automatically yield long-horizon distributed computation; MoE expert labels do not imply semantic organs.
@@ -71,3 +65,5 @@ Raw agent count is a poor proxy for capacity; diversity metrics can disagree; co
 21. Does capability-aware routing reduce collective regret rather than only improve route classification?
 22. Can persistent task anchoring prevent communication-induced drift without suppressing useful exploration?
 23. Can topology switching improve utility while preserving fault isolation and avoiding controller common-mode failure?
+24. Does receiver context determine the minimum useful latent payload strongly enough to change optimal communication protocols?
+25. Can a causal communication metric predict collective computation gains across model families rather than only within one interface family?
