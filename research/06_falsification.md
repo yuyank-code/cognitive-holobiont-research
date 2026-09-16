@@ -2,7 +2,29 @@
 
 The program prioritizes experiments that could make the Holobiont hypothesis fail. The treatise is not evidence.
 
-## Run 22 additions
+## Pass 09 additions — 2026-09-17
+
+### F09.1 — Receiver-context communication phase diagram
+Construct paired tasks with identical sender states but different receiver-private context. Measure the minimum latent payload needed to preserve performance in context-aware versus context-unaware settings. Compare raw dimensionality, compressed size, conditional mutual information, and causal utility.
+
+**Falsifies the receiver-context hypothesis if:** useful payload requirements are invariant to receiver-private information after controlling for model/interface effects.
+
+### F09.2 — Heterogeneous-family portability test
+Train/evaluate a latent interface on one model family and test on structurally different families, depths and tokenizers. Compare learned adapters, training-free alignment, and text communication under matched information budgets.
+
+**Falsifies portable-interface claims if:** gains disappear outside the development family and no interface strategy generalizes better than text or simple baselines.
+
+### F09.3 — Exact distributed-computation test
+Create tasks where indispensable facts are partitioned across specialists and cannot be inferred from shared priors. Compare Holobiont, large-context single model, MoE, text-MAS, latent-MAS and structured shared-state systems with equalized total information and compute.
+
+**Falsifies collective distributed-computation advantage if:** no Holobiont protocol produces a reproducible advantage on exact-composition tasks, or gains are fully explained by extra independent model capacity.
+
+### F09.4 — Correlated-failure effective-channel test
+Continuously vary shared training data, backbone, evaluator, router, memory, latent hub and evidence sources. Measure whether an effective-channel statistic predicts marginal utility and failure probability better than raw agent count and pairwise representation similarity.
+
+**Falsifies the effective-channel abstraction if:** interventions do not improve prediction of collective behavior over simpler baselines.
+
+## Previous additions retained
 
 ### F22.1 — Selector bottleneck decomposition
 Generate candidate solutions using homogeneous and heterogeneous specialists, then cross the candidates with independent selectors of varying quality. Match total compute. Measure where diversity helps, hurts, or becomes irrelevant.
@@ -60,25 +82,6 @@ Evaluate generator diversity with exact/verifiable tasks and independent selecto
 Create specialists with controlled redundancy levels. Delete specialists and compare checkpoint restoration, adapter reconstruction, hypernetwork generation, and distributed traces. Test common, rare, OOD, calibration, and conflict behavior.
 
 **Falsifies meaningful regeneration if:** recovery is explained entirely by surviving generic priors/checkpoints and no controlled unique-capability information is recovered.
-
-## Existing decisive experiments retained
-- Receiver-isolated latent information bound.
-- Distributed integration bottleneck test.
-- Topology-aware uncertainty calibration.
-- Interface portability matrix.
-- Honest-correlated-error Byzantine test.
-- Longitudinal specialist-identity test.
-- Communication phase diagram.
-- Consensus vs dependency-aware dissent.
-- Distributed capability-regeneration benchmark.
-- Recursive meta-evolution retention.
-- Compute-matched single-model multi-output/self-conditioning baseline.
-- MoE vs heterogeneous independent specialists vs shared-backbone+adapters.
-- Text communication vs latent communication at matched transmitted information.
-- Randomized topology and communication ablations.
-- Common-mode failure injection: shared data, shared backbone, shared memory, shared router, shared evaluator, shared generator, shared latent hub/codec.
-- Specialist deletion followed by repair/regeneration.
-- Correlated Byzantine/collusion attacks.
 
 ## Evaluation principle
 
