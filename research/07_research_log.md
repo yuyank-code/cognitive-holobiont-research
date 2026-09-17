@@ -56,11 +56,31 @@
 7. The strongest current Holobiont hypothesis is: private causal specialists + capability-aware routing + selective latent interface + provenance/dependency-aware evidence + independent selection/verifier + task anchoring/termination + distributed capability traces + repair + validation-gated reconfiguration.
 8. The novelty claim remains unvalidated until this integrated system beats compute-, bandwidth-, memory-, information-, and redundancy-matched MoE, ensemble, text-MAS, latent-MAS, model-stitching, and self-healing baselines on distributed-computation and correlated-failure tests.
 
+### Automation pass 11 — conditional latent utility and distributed information acquisition
+
+- Two independent 2026 causal-audit studies strengthen the methodological requirement that latent communication be tested by controlled message intervention rather than end-task gain. Current-example, no-message, other-example, self-generated, deranged, zeroed, and moment-matched conditions distinguish message presence from example-specific sender information.
+- HiddenBench adds convergent evidence that distributed information acquisition is distinct from transport: agents often fail to recognize what peers know but have not communicated, causing premature convergence. Structured communication helps but does not eliminate the gap.
+- SILO-BENCH and MAS-BENCH continue to show that more agents and more communication do not reliably produce exact distributed computation; shared state, convention alignment, and termination remain failure points.
+- 2026 diversity-collapse/committee work strengthens the common-mode problem: nominally separate agents can become highly correlated, and dense interaction can contract exploration. Effective independent channels are therefore a better target than agent count.
+- Universal Hypernetwork and SHINE evidence strengthens compact capability generation/adaptation but leaves the information-theoretic limit on unique capability resurrection intact.
+- Self-healing neural-network evidence strengthens bounded repair, not recovery of uniquely erased learned capabilities.
+
+### Automation-pass-11 conclusions
+
+1. The Holobiont should be framed primarily as an information-acquisition and distributed-computation system with modular specialists, not merely a collection of communicating models.
+2. Communication utility should be conditioned on receiver-private information and measured through causal counterfactual message substitution.
+3. Active information requests, uncertainty-driven querying, and unresolved-information obligations are now first-class architectural requirements.
+4. Genuine distributed intelligence requires a matched-resource advantage over centralized, MoE, conventional MAS, and latent-MAS baselines, plus causal ablations of the private-information channels.
+5. Effective independence must be measured through contribution and failure-correlation tests rather than raw agent count or embedding diversity.
+6. Capability regeneration must be evaluated as a curve versus surviving information; generation of a substitute is not resurrection of a destroyed unique capability.
+7. The strongest falsifiable formulation is: heterogeneous partially independent specialists that actively discover missing information, transport causally useful state through explicit interfaces, integrate evidence with dependency awareness, verify independently, preserve objectives, and repair/reconfigure under measured constraints.
+
 ### Current next priorities
 
-1. Causal task-information tests for latent communication with receiver-private information and sender-message swaps.
-2. Hub common-mode failure/security tests versus pairwise and sparse hybrid latent topologies.
-3. Independent selection replication using exact/verifiable tasks rather than only LLM judges.
-4. Long-horizon drift/termination experiments with objective anchors and progress gates.
-5. Distributed capability-recovery curves varying the amount of surviving information and testing rare/OOD capabilities.
-6. Continue literature expansion before implementation; no architecture should be treated as validated merely because its components have individually demonstrated feasibility.
+1. Pre-register causal latent-message audits across more model families, receiver contexts, and tasks requiring genuinely private sender information.
+2. Build exact distributed-computation tasks with explicit information ownership and compare Holobiont protocols against matched centralized/self-conditioning/MoE/text-MAS/latent-MAS systems.
+3. Measure effective independent channels under shared-backbone, shared-router, shared-memory, hub-codec, and independent-model conditions.
+4. Test active information-request policies against passive broadcast and debate baselines.
+5. Quantify long-horizon objective retention and termination under increasing communication depth.
+6. Map capability-recovery performance against controlled destruction of the information required for the capability.
+7. Continue literature expansion before implementation; no architecture should be treated as validated merely because its components have individually demonstrated feasibility.
