@@ -1,0 +1,6 @@
+# Contradictions — Pass 16 Addendum
+
+1. **Communication benefit vs interaction tax.** Some MAS work reports gains from debate/critique, while Interaction Tax finds full-solution interaction can erase diversity under matched budgets. Reconciliation hypothesis: gains depend on the information unit, timing, verifier quality, and whether interaction destroys useful independence.
+2. **Decentralization vs governance.** Peer communication is attractive for avoiding a single bottleneck, but MasDrift/Constraint Drift indicate decentralized delegation can weaken authorization preservation. A Holobiont may therefore need decentralized cognition with centralized or cryptographically enforced governance primitives.
+3. **Internal visibility vs privacy/security.** AgentLeak shows internal channels can reduce output leakage while increasing total exposure; SCHEME shows communication visibility helps detect collusion. Therefore, “more observability” and “more privacy” are competing architectural objectives rather than monotonic goods.
+4. **Dynamic topology vs stability.** Adaptive graphs may improve information routing, but graph changes can also create new failure modes and make attribution harder. OpenMAS-GCom motivates controlled topology interventions rather than assuming adaptivity is beneficial.
