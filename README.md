@@ -4,6 +4,6 @@ Long-horizon research program treating the originating PDF as a hypothesis/speci
 
 ## Latest research pass
 
-**Pass 18 — 2026-09-25** adds a causal-information-synergy framing and sharpens the distinction between coordination, distributed computation, and Holobiont-level cognitive synergy. Recent evidence strengthens adaptive communication control and verified shared context, while leaving causal positive coalition synergy unvalidated.
+**Pass 23 — 2026-10-12** adds an evidence-stewardship framing across information acquisition, authorized disclosure, provenance, temporal memory validity, contradiction/retraction, and action-grounded causal auditing. It strengthens the need for long-horizon and privacy-aware evaluation while leaving Holobiont-specific causal synergy unvalidated.
 
-See `research/automation_pass18_2026-09-25.md` and `research/03_claim_evidence_matrix_pass18_addendum.md`.
+See `research/automation_pass23_2026-10-12.md`, `research/03_claim_evidence_matrix_pass23_addendum.md`, and `sources/pass23_sources.md`.
