@@ -90,3 +90,44 @@ The provisional synergy target is the coupled system's task utility minus the be
 Candidate architecture: independent exploration → epistemic state → missing-information inference → authorized query → typed response or verified shared-context update → origin-bound admission → temporal eligibility/contradiction handling → independent challenge → action-grounded verification → retraction and descendant re-evaluation → termination or safe fallback. The controller must be able to choose private routing, shared context, challenge, no-op, quarantine, or abstention. No implementation is recommended yet.
 
 The originating PDF remains a hypothesis/specification. Hypernetwork regeneration, consensus-loss immunity, entropy reduction as correctness, and recursive self-rearchitecture remain unvalidated.
+
+
+---
+
+# Pass 25 continuation — Joint topology, privacy, and causal interaction effects
+**Research date: 2026-10-14**
+
+## Executive result
+Communication topology is both an information channel and a privacy boundary. Dense links can make decisive facts reachable while increasing the reach of sensitive memory; sparse links can reduce exposure while blocking useful evidence. The next architecture hypothesis should co-design routing, authorization, and memory admission under explicit constraints, rather than optimize task score and token count first and bolt on security afterward.
+
+A second correction concerns causal attribution: edge masking can identify channels whose removal changes an outcome, but single-edge effects do not establish higher-order synergy.
+
+## New literature and citation chain
+
+- **MASBench** (arXiv:2610.04672; submitted 2026-10-03) evaluates protocol, memory, and routing under partial observability across reasoning, privacy-constrained scheduling, and grid-world tasks. Structured protocol and selective routing help in tested settings. Its communication cost excludes local reasoning tokens, so it is not a total-cost metric. Source: https://arxiv.org/abs/2610.04672
+- **Topology Matters / MAMA** (Findings of ACL 2026, peer-reviewed) seeds synthetic private information into a target agent and measures extraction over ten rounds. Across six topologies and groups of four to six agents, denser connectivity, shorter attacker–target distance, and higher target centrality increase leakage in the tested threat model. This supports topology-aware access control, not a universal rule that sparse graphs are best. Source: https://aclanthology.org/2026.findings-acl.1980/
+- **SAGE-Mem** (ICML 2026 SCALE Workshop) separates transient evidence from durable belief through write-time admission, evidence-to-belief promotion, and provenance-aware retrieval. Attack rates drop in its tested suites, but its reported benign-completion-under-attack metric is lower than the retrieval-time baseline in one table (0.418 vs 0.655). The results expose a security–utility frontier; they do not show a universal defense win. Broader-suite attack success also remains nonzero. Sources: https://agampandeyy.github.io/sage-mem/ and https://github.com/AGAMPANDEYY/sage-mem
+- **E2-Explainer** (arXiv:2608.12921) uses edge masking and task/stability signals to identify compact communication subgraphs. Its authors note that single-edge interventions can miss interactions among multiple edges, calibration uses a small set, and pruning can preserve a wrong answer. Source: https://arxiv.org/abs/2608.12921
+- **GoAgent** (arXiv:2603.19677) supplies a group-level topology and conditional information-bottleneck baseline. Treat its reported gains as benchmark-specific, not universally superior. Source: https://arxiv.org/abs/2603.19677
+- **HiddenBench** (ICML 2026, peer-reviewed) reports 30.1% accuracy for multi-agent groups under distributed information versus 80.7% for a single agent given the complete profile on its hidden-profile tasks. This is a diagnostic contrast, not a deployment-matched contest. Source: https://proceedings.mlr.press/v306/li26ej.html
+- **Equal-thinking-token comparison** (arXiv:2604.02460) reports single-agent systems can match or outperform tested MAS on multi-hop reasoning under matched reasoning-token budgets. This remains a necessary, task-specific negative control. Source: https://arxiv.org/abs/2604.02460
+
+## Revised architecture hypothesis
+Independent exploration → infer missing information → authorize and minimize disclosure → route under a declared leakage constraint → admit incoming claims as evidence rather than immediate belief → track origin, source dependence, version/time validity, and contradictions → independently challenge → verify actual outcomes → retract dependent conclusions when evidence becomes invalid.
+
+A weighted scalar objective may be useful for tuning, but hard privacy/authorization requirements should not be traded away for enough task-score gain. Report a utility–leakage–false-rejection Pareto frontier.
+
+## Causal interaction framework
+Let Q(S) be expected task utility when channel set S is enabled under a fixed policy and budget. For edges e and f:
+I_ef(S) = Q(S ∪ {e,f}) − Q(S ∪ {e}) − Q(S ∪ {f}) + Q(S).
+Positive I indicates a superadditive interaction in that context; negative I indicates redundancy or interference. Single-edge ablation estimates a marginal effect but can miss these interactions. Use randomized pairwise/coalition sampling, multiple seeds, held-out tasks, and uncertainty intervals.
+
+## Falsification and evaluation requirements
+Factorially vary information ownership (complementary/redundant/randomized), topology (complete/sparse/hierarchical/learned/group-level), protocol (free-form/typed/adaptive), memory (none/retrieval-only/write-gated/versioned), and threat model (honest/noisy/poisoned/privacy-seeking). Match or report reasoning, prompt/context, message, tool, memory, verifier, latency, and monetary costs.
+
+Measure separately: clean-task utility; utility under attack; unique-fact recovery; unauthorized extraction; malicious write admission; poisoned-descendant use; benign evidence false rejection; action-level compliance; and total cost. Use deterministic task checks when possible. A positive edge or coalition effect is not by itself proof of a new cognitive primitive.
+
+## Current claim status
+Structured protocols and selective routing are supported in bounded settings. Dense topology increases leakage in the MAMA threat model. Write-time admission can reduce tested poisoning, but security–utility trade-offs remain. Single-edge attribution is incomplete for interaction effects. Holobiont-specific synergy beyond the best feasible resource-matched baseline remains unvalidated.
+
+The originating PDF remains a hypothesis/specification. Implementation remains premature until a constrained, intervention-based benchmark demonstrates reproducible gains.
