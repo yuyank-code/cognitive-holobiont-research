@@ -4,6 +4,13 @@ Long-horizon research program treating the originating PDF as a hypothesis/speci
 
 ## Latest research pass
 
-**Pass 23 — 2026-10-12** adds an evidence-stewardship framing across information acquisition, authorized disclosure, provenance, temporal memory validity, contradiction/retraction, and action-grounded causal auditing. It strengthens the need for long-horizon and privacy-aware evaluation while leaving Holobiont-specific causal synergy unvalidated.
+Pass 28 — 2026-10-18 adds a dependence-adjusted effective-team-size lens, distinguishes answer diversity from useful evidence, audits memory-ablation identifiability, and records scenario-specific evidence that protocol choice affects latency and fault recovery. It does not establish a task-general scaling law or Holobiont-specific synergy.
 
-See `research/automation_pass23_2026-10-12.md`, `research/03_claim_evidence_matrix_pass23_addendum.md`, and `sources/pass23_sources.md`.
+Artifacts:
+- research/automation_pass28_2026-10-18.md
+- research/claim_evidence_matrix_pass28_addendum.md
+- research/contradictions_open_problems_pass28.md
+- mathematics/pass28_effective_team_size_and_memory_identifiability.md
+- sources/pass28_source_ledger.md
+
+The complete architecture remains a research hypothesis. Defer implementation until resource-matched, privacy-constrained, intervention-based evaluation.
