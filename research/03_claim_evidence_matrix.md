@@ -68,3 +68,7 @@ This document tracks major Holobiont claims against external evidence. The treat
 - Distributed-information benchmarks should equalize total information and compute before claiming collective advantage.
 - Latent payloads must have provenance and integrity controls before being trusted by downstream fusion.
 - Communication utility should be conditioned on receiver-private information; context-aware and context-unaware regimes must not be conflated.
+
+
+## Pass 29 updates — 2026-10-19
+See research/claim_evidence_matrix_pass29_addendum.md for the new HiddenBench, MemRiskBench, MAESTRO, debate-counterfactual, and coalition-credit findings. Key changes: hidden knowledge must be elicited; oracle baselines are not access-matched; aggregate reliability is insufficient for memory safety; deterministic scorers need audits; trace stability is not correctness; and individual contribution can depend on coalition context.

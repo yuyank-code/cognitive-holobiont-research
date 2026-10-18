@@ -1,6 +1,6 @@
 # Master Research Index
 
-Latest committed pass: Pass 28 — 2026-10-18. The originating Treatise/PDF remains a hypothesis/specification, not established fact.
+Latest committed pass: Pass 29 — 2026-10-19. The originating Treatise/PDF remains a hypothesis/specification, not established fact.
 
 ## Current synthesis
 
@@ -9,6 +9,10 @@ Pass 28 adds a quantitative dependence lens and a measurement-validity correctio
 A new persistent-memory ablation preprint shows that static independent-item benchmarks may not identify cross-session memory value. This is a benchmark-regime limitation, not proof that memory never helps. ProtocolBench provides positive but scenario-specific evidence that protocol selection affects latency and fault recovery.
 
 The strongest current hypothesis remains a task-conditioned, evidence-governed collective with independent initial proposals, selective elicitation, dependency-aware evidence, versioned memory, protocol selection, independent verification, and explicit stopping. Holobiont-specific causal synergy remains unvalidated.
+
+## Pass 29 synthesis
+
+Pass 29 connects distributed-information failures, execution observability, debate counterfactuals, and risk-specific long-horizon memory safety. HiddenBench is peer-reviewed ICML 2026 evidence of information-elicitation failures, but its full-information baseline is an oracle rather than an access-matched comparator. MemRiskBench, MAESTRO, The Illusion of Multi-Agent Advantage, Not All Flips Are Conformity, and CoFi-PGMA add complementary evidence and limits. Establish observability and scorer validity before optimizing adaptive routing or self-modification. Keep per-risk failures and authorization constraints separate from average utility.
 
 ## Latest artifacts
 - Main report: research/automation_pass28_2026-10-18.md
@@ -21,3 +25,9 @@ The strongest current hypothesis remains a task-conditioned, evidence-governed c
 
 ## Research discipline
 Follow citation chains; preserve negative and null findings; distinguish peer-reviewed results from preprints; match total resources and information access; measure privacy leakage and benign false rejection separately; use randomized interventions for causal claims; distinguish answer diversity, correctness dependence, unique information recovered, and task utility; never infer Holobiont-specific synergy from message volume, consensus, entropy, or trace graphs alone.
+
+- Main report: research/automation_pass29_2026-10-19.md
+- Claim–evidence addendum: research/claim_evidence_matrix_pass29_addendum.md
+- Contradictions/open problems: research/contradictions_open_problems_pass29.md
+- Mathematics: mathematics/pass29_causal_attribution_and_risk_preserving_evaluation.md
+- Source ledger: sources/pass29_source_ledger.md

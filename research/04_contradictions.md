@@ -67,3 +67,7 @@ Raw agent count is a poor proxy for capacity; diversity metrics can disagree; co
 23. Can topology switching improve utility while preserving fault isolation and avoiding controller common-mode failure?
 24. Does receiver context determine the minimum useful latent payload strongly enough to change optimal communication protocols?
 25. Can a causal communication metric predict collective computation gains across model families rather than only within one interface family?
+
+
+## Pass 29 additions — 2026-10-19
+See research/contradictions_open_problems_pass29.md for C-058–C-065 and the full falsification conditions. New contradictions cover unelicited hidden knowledge, oracle/access mismatch, aggregate scores hiding risk, deterministic but faulty scorers, stable traces with variable outcomes, spontaneous answer flips, coalition-dependent contribution, and benchmark reference-set overfitting.
