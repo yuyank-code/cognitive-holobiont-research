@@ -1,33 +1,16 @@
 # Master Research Index
 
-Latest committed pass: Pass 29 — 2026-10-19. The originating Treatise/PDF remains a hypothesis/specification, not established fact.
+Latest pass: Pass 30 — 2026-10-20. The Treatise/PDF remains a hypothesis, not established fact.
 
-## Current synthesis
+Pass 30 adds proposal-trajectory evidence, matched random-pruning controls, and a distinction between semantic trace attribution and causal contribution. Interaction may regress a strong initial proposal; compare against practical best-of-K selection with the same verifier budget. Learned topology must beat matched random pruning. Trace attribution requires intervention validation. Peer-reviewed ICML 2026 evidence separates capability from cooperation.
 
-Pass 28 adds a quantitative dependence lens and a measurement-validity correction. Nominal agent count is not independent evidence; answer-space entropy is not the same as useful diversity or correctness; high fit is not causal synergy. The Ringelmann effective-team-size model is a useful testable diagnostic within bounded tasks, not an established universal scaling law.
+Current hypothesis: proposal-preserving, evidence-governed coordination with independent proposals, targeted elicitation, selective claim exchange, provenance/authorization, intervention-audited attribution, independent verification, risk-specific metrics, and full cost accounting.
 
-A new persistent-memory ablation preprint shows that static independent-item benchmarks may not identify cross-session memory value. This is a benchmark-regime limitation, not proof that memory never helps. ProtocolBench provides positive but scenario-specific evidence that protocol selection affects latency and fault recovery.
+Artifacts:
+- research/automation_pass30_2026-10-20.md
+- research/claim_evidence_matrix_pass30_addendum.md
+- research/contradictions_open_problems_pass30.md
+- mathematics/pass30_proposal_gain_and_attribution.md
+- sources/pass30_source_ledger.md
 
-The strongest current hypothesis remains a task-conditioned, evidence-governed collective with independent initial proposals, selective elicitation, dependency-aware evidence, versioned memory, protocol selection, independent verification, and explicit stopping. Holobiont-specific causal synergy remains unvalidated.
-
-## Pass 29 synthesis
-
-Pass 29 connects distributed-information failures, execution observability, debate counterfactuals, and risk-specific long-horizon memory safety. HiddenBench is peer-reviewed ICML 2026 evidence of information-elicitation failures, but its full-information baseline is an oracle rather than an access-matched comparator. MemRiskBench, MAESTRO, The Illusion of Multi-Agent Advantage, Not All Flips Are Conformity, and CoFi-PGMA add complementary evidence and limits. Establish observability and scorer validity before optimizing adaptive routing or self-modification. Keep per-risk failures and authorization constraints separate from average utility.
-
-## Latest artifacts
-- Main report: research/automation_pass28_2026-10-18.md
-- Claim–evidence addendum: research/claim_evidence_matrix_pass28_addendum.md
-- Contradictions/open problems: research/contradictions_open_problems_pass28.md
-- Mathematics: mathematics/pass28_effective_team_size_and_memory_identifiability.md
-- Source ledger: sources/pass28_source_ledger.md
-- Canonical claim–evidence matrix: research/03_claim_evidence_matrix.md
-- Canonical contradictions log: research/04_contradictions.md
-
-## Research discipline
-Follow citation chains; preserve negative and null findings; distinguish peer-reviewed results from preprints; match total resources and information access; measure privacy leakage and benign false rejection separately; use randomized interventions for causal claims; distinguish answer diversity, correctness dependence, unique information recovered, and task utility; never infer Holobiont-specific synergy from message volume, consensus, entropy, or trace graphs alone.
-
-- Main report: research/automation_pass29_2026-10-19.md
-- Claim–evidence addendum: research/claim_evidence_matrix_pass29_addendum.md
-- Contradictions/open problems: research/contradictions_open_problems_pass29.md
-- Mathematics: mathematics/pass29_causal_attribution_and_risk_preserving_evaluation.md
-- Source ledger: sources/pass29_source_ledger.md
+Holobiont-specific causal synergy remains unvalidated; implementation remains deferred. Match resources and information access, retain negative evidence, use held-out tasks and ownership swaps, and report uncertainty.
