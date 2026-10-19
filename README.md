@@ -1,20 +1,17 @@
 # Cognitive Holobiont Research
 
-Long-horizon research program treating the originating PDF as a hypothesis/specification, not established fact.
+Long-horizon research treating the originating PDF as a hypothesis/specification, not established fact.
 
-## Latest research pass
+## Latest pass
+Pass 30 — 2026-10-20: proposal-trajectory evidence, matched random-pruning controls, and the distinction between semantic trace attribution and causal contribution. New work does not establish Holobiont-specific synergy.
 
-Pass 29 — 2026-10-19 connects distributed-information failures, execution observability, counterfactual debate evaluation, and risk-specific long-horizon memory safety. It adds peer-reviewed ICML 2026 HiddenBench evidence plus bounded preprint findings. It does not establish Holobiont-specific synergy.
+## Artifacts
+- research/automation_pass30_2026-10-20.md
+- research/claim_evidence_matrix_pass30_addendum.md
+- research/contradictions_open_problems_pass30.md
+- mathematics/pass30_proposal_gain_and_attribution.md (planned; math is also summarized in the Pass 30 report)
+- sources/pass30_source_ledger.md
+- Pass 29 report and artifacts remain on research/pass29-2026-10-19.
 
-Artifacts:
-- research/automation_pass28_2026-10-18.md
-- research/claim_evidence_matrix_pass28_addendum.md
-- research/contradictions_open_problems_pass28.md
-- mathematics/pass28_effective_team_size_and_memory_identifiability.md
-- sources/pass29_source_ledger.md
-- research/claim_evidence_matrix_pass29_addendum.md
-- research/contradictions_open_problems_pass29.md
-- mathematics/pass29_causal_attribution_and_risk_preserving_evaluation.md
-- sources/pass28_source_ledger.md
-
-The complete architecture remains a research hypothesis. Defer implementation until resource-matched, privacy-constrained, intervention-based evaluation.
+## Research discipline
+Preserve null and contradictory evidence. Match total resources and information access. Distinguish initial proposal quality, practical selection, trace attribution, intervention effects, verified utility, privacy risks, and full cost. Defer implementation until gains survive matched controls, interventions, ownership swaps, and held-out tasks.
