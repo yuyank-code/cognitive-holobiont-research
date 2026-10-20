@@ -10,6 +10,7 @@ Artifacts:
 - research/automation_pass31_2026-10-21.md
 - research/claim_evidence_matrix_pass31_addendum.md
 - research/pass31_open_questions.md
+- research/pass31_conflicts.md
 - mathematics/pass31_temporal_evidence_and_admissible_communication.md
 - sources/pass31_source_ledger.md
 
