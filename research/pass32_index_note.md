@@ -1,0 +1,3 @@
+# Pass 32 Index Note
+
+Pass 32 reviews new work on temporal memory updates, versioned writes, source lineage, and execution/evidence tracing. It adds a claim matrix, contradiction log, open questions, mathematical definitions, and a source ledger. The main conclusion is that temporal validity, evidential support, source origin, and action policy are distinct. The combined architecture remains unvalidated.
