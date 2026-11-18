@@ -67,15 +67,24 @@ Each substantive research pass should:
 - clearly label peer-reviewed research, preprints, and vendor claims;
 - preserve findings in this repository and verify the resulting files and commit.
 
-The originating document, `The_Cognitive_Holobiont_Treatise.pdf`, is the project's initial vision and hypothesis specification. It is **not** treated as established scientific fact.
+The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's initial vision and hypothesis specification. It is **not** treated as established scientific fact.
 
 ## Latest research pass
 
-Pass 28 — 2026-10-18 adds a dependence-adjusted effective-team-size lens, distinguishes answer diversity from useful evidence, audits memory-ablation identifiability, and records scenario-specific evidence that protocol choice affects latency and fault recovery. It does not establish a task-general scaling law or Holobiont-specific synergy.
+**Pass 33 — 2026-11-18** investigates the regeneration claim directly. New evidence separates localized repair (SHNN, NSRepair), hypernetwork-generated recovery of forgotten capabilities in an existing LoRA-adapted LLM (HyperRepair), small-scale cross-architecture weight generation (Universal Hypernetworks), Byzantine-resilient receiver-side filtering (SAC, EMNLP 2026), fault-injection evaluation (MAS-FIRE), and recoverability-gated self-modification (EvoUndo). The central conclusion is that none of these results demonstrates the strongest claim: regenerating a deleted independent specialist from surviving organs without its checkpoint, teacher, or unique data.
 
 Artifacts:
-- `research/automation_pass28_2026-10-18.md`
-- `research/claim_evidence_matrix_pass28_addendum.md`
-- `research/contradictions_open_problems_pass28.md`
-- `mathematics/pass28_effective_team_size_and_memory_identifiability.md`
-- `sources/pass28_source_ledger.md`
+- research/automation_pass33_2026-11-18.md
+- research/claim_evidence_matrix_pass33_addendum.md
+- research/contradictions_open_problems_pass33.md
+- mathematics/pass33_recoverability_and_fault_tolerance.md
+- experiments/pass33_repair_and_byzantine_backlog.md
+- sources/pass33_source_ledger.md
+
+Earlier research:
+- Pass 28 — research/automation_pass28_2026-10-18.md and its matrix, contradictions, mathematics and source ledger.
+- Pass 32 — research/pass32-2026-10-22 branch contains a memory-governance claim-matrix addendum and a short report stub; it is not represented as a complete main-branch research pass.
+
+## Research discipline
+
+Preserve null and contradictory evidence. Match total resources and information access. Separate temporal currency, evidence support, authorization, retrieval, verified utility, fault recovery, and total cost. Do not infer Holobiont-specific synergy from message volume, consensus, provenance, or benchmark headline scores alone.
