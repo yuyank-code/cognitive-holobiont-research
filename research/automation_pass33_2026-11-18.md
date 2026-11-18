@@ -10,7 +10,7 @@ The evidence now supports a more precise, three-level distinction:
 
 1. **Localized repair of a known damaged model component:** supported in bounded settings. New 2026 studies repair neurons/layers using fault localization, clean reference behavior, task data, and explicit repair objectives.
 2. **Recovery of forgotten capabilities in an existing adapted model:** promising but early. A new October 2026 preprint uses a hypernetwork to generate small repair side-nets for LoRA-fine-tuned LLMs, recovering some general performance while preserving specialization.
-3. **Regeneration of a missing independent specialist from other surviving organs, without access to its checkpoint, teacher, or unique training data:** still un demonstrated. None of the new work establishes this strongest Holobiont claim.
+3. **Regeneration of a missing independent specialist from other surviving organs, without access to its checkpoint, teacher, or unique training data:** still undemonstrated. None of the new work establishes this strongest Holobiont claim.
 
 On fault tolerance, the strongest new result is a peer-reviewed EMNLP 2026 paper introducing decentralized receiver-side filtering and graph robustness conditions for LLM agents under a bounded Byzantine threat model. It improves the evidence base for an immune/fault-containment layer, but it does not make consensus equivalent to truth: the evaluator can itself be wrong, the graph assumptions matter, and the tested setting is small and single-turn.
 
