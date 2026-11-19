@@ -71,9 +71,21 @@ The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's
 
 ## Latest research pass
 
-**Pass 33 — 2026-11-18** investigates the regeneration claim directly. New evidence separates localized repair (SHNN, NSRepair), hypernetwork-generated recovery of forgotten capabilities in an existing LoRA-adapted LLM (HyperRepair), small-scale cross-architecture weight generation (Universal Hypernetworks), Byzantine-resilient receiver-side filtering (SAC, EMNLP 2026), fault-injection evaluation (MAS-FIRE), and recoverability-gated self-modification (EvoUndo). The central conclusion is that none of these results demonstrates the strongest claim: regenerating a deleted independent specialist from surviving organs without its checkpoint, teacher, or unique data.
+**Pass 34 — 2026-11-19** investigates the connective tissue as a reliability-critical information network. New evidence covers silent semantic/partial-content communication failures (When Messages Go Wrong, arXiv preprint), runtime API fault injection (AgentChaos, ASE 2026), role-conditioned selective memory routing (RCR-Router, Findings EMNLP 2026), adaptive typed-graph/natural-language handoff (Routed Graph Handoff, Findings EMNLP 2026), collaboration-aware routing (RouterHGC, Findings ACL 2026), and trace-anchored causal repair versus stochastic reruns (Repair or Resample, arXiv preprint).
+
+The central conclusion is that resilience depends on preserving trustworthy information dependencies, not merely adding network edges. Selective and hybrid communication now provide strong baselines for the Treatise's continuous latent bloodstream. Alternative routes help only when they retain an unaffected evidence path; copies of the same corrupted source do not create independent evidence. Retrying is not proof of repair.
 
 Artifacts:
+- research/automation_pass34_2026-11-19.md
+- research/claim_evidence_matrix_pass34_addendum.md
+- research/contradictions_open_problems_pass34.md
+- mathematics/pass34_communication_reliability.md
+- experiments/pass34_communication_fabric_backlog.md
+- falsification/pass34_communication_reliability.md
+- sources/pass34_source_ledger.md
+- literature_map/pass34_communication_and_faults.md
+
+**Pass 33 — 2026-11-18** investigated capability regeneration, localized model repair, Byzantine-resilient collaboration, and recoverable self-modification. Its artifacts remain available:
 - research/automation_pass33_2026-11-18.md
 - research/claim_evidence_matrix_pass33_addendum.md
 - research/contradictions_open_problems_pass33.md
