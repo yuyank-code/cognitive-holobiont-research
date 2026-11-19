@@ -272,6 +272,8 @@ Priority order:
 
 **E34-F — Fault-aware topology adaptation.** Train or optimize the router using task competence, evidence criticality, source ancestry, failure-domain diversity, latency and token cost. Test on unseen tasks and correlated failures. Do not let the router inspect the injected fault label.
 
+**E34-G — Common-mode source and codec compromise.** Poison a shared retrieval index, shared model family, latent codec, task-state bus or memory schema. Compare independent model families, independent retrieval sources, signed/versioned records and shared-only architectures. Measure whether apparent redundancy survives correlated failure, including a condition where every organ trusts the same wrong source.
+
 ## 8. Open questions
 
 1. How should independence between evidence sources be estimated when organs share base models, training data, retrieval indexes or latent codecs?
