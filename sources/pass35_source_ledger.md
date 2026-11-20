@@ -18,7 +18,7 @@
 - Critical boundary: benchmark and memory architecture; not a heterogeneous multi-agent memory-governance experiment.
 
 ## Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning
-- Authors: Kehao Zhang, Shangtong Gui, Sheng Yang, Chen Wei, Yang Feng.
+- Authors: Kehao Zhang, Shangtong Gui, Sheng Yang, Wei Chen, Yang Feng.
 - Status: peer-reviewed, EMNLP 2026, pages 29575–29599.
 - Official paper: https://aclanthology.org/2026.emnlp-main.1299/
 - Use: Unified Memory Agent (UMA), query-agnostic proactive memory maintenance, structured CRUD bank, Ledger-QA.
@@ -32,7 +32,7 @@
 - Code: https://github.com/xiong-wenjun/TRACE
 - Use: temporal memory admission at agent return; explicit/implicit invalidation; obligation-aware Return View.
 - Key result: 92.6–98.3% valid-information availability and 98.4–99.5% invalid-information rejection on derived ManBench-Return; STALE Type II gains are reported with substantial token cost.
-- Critical boundary: assumes authenticated return, checkpoint and source receipts; verifier/candidate coverage matter; longer absences degrade performance; not a general memory-poisoning defense.
+- Critical boundary: assumes authenticated return, checkpoint and source receipts; verifier/candidate coverage matter; longer absences degrade performance; not a general memory-poisoning defense. Results are aggregation-dependent: TRACE does not lead every Memora or STALE Type II comparison (one subset table reports CUPMem 80.56 vs TRACE 58.89).
 
 ## MemTX: Transactional Belief Commit for Stateful Agent Memory
 - Authors: Xiaoyang Li, Yiqi Wang, Haohui Lu, Zhi Chen, Mo Li, Pingan Song, Taotao Cai.
