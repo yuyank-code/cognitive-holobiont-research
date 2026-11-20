@@ -130,7 +130,7 @@ TRACE studies the returning-agent problem. An organ may leave a team with a vali
 
 TRACE introduces a return-time admission layer. It reconciles the departure checkpoint with updates made during absence, checks explicit and implicit invalidation, and produces a bounded Return View that covers the returning role's open obligations.
 
-On its derived ManBench-Return setting, the paper reports 92.6–98.3% valid-information availability and 98.4–99.5% invalid-information rejection. On STALE Type II, TRACE improves the reported overall score over the strongest comparison policy by 22.3 points for Qwen, 18.5 for Gemini and 27.5 for DeepSeek, at about 2.3 times the tokens of cheaper methods. A write-time consolidation pipeline is more accurate still, at about 3.99 times TRACE's token use.
+On its derived ManBench-Return setting, the paper reports 92.6–98.3% valid-information availability and 98.4–99.5% invalid-information rejection. In the paper's actor-specific STALE Type II aggregation, TRACE is ahead of the listed comparison methods by 22.3 points for Qwen, 18.5 for Gemini and 27.5 for DeepSeek. However, results are not uniform across every table/benchmark: a separate STALE Type II subset table reports CUPMem at 80.56 overall versus TRACE at 58.89, and the authors state that TRACE does not consistently lead on Memora. The headline advantage is therefore actor-, metric- and subset-dependent, not universal. A write-time consolidation pipeline is reported as more accurate still in one comparison, at about 3.99 times TRACE's token use.
 
 **Holobiont relevance:** an organ's memory cannot be trusted merely because it was valid when the organ went offline. Re-entry is a new authorization and temporal-validity boundary.
 
