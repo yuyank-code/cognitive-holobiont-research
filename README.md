@@ -71,6 +71,20 @@ The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's
 
 ## Latest research pass
 
+**Pass 35 — 2026-11-20** investigates the Hippocampus, Narrative Thread and shared-memory vision as a problem of governed collective state. New evidence includes the OTGE survey of 89 LLM-agent papers, UMA (EMNLP 2026), AMA-Bench (ICML 2026), TRACE, MemTX, MAPLE-Guard, MemoryDojo, MANBENCH (ICLR 2026) and provenance-preserving memory controls.
+
+The central conclusion is that a shared store is not enough: the Holobiont needs a cross-cutting Collective State Plane that governs admission, scope, propagation, reconciliation, revision, revocation and recovery. Memory must preserve provenance, authority, temporal validity and typed dependencies. A memory write is not a belief commit, and a retrieved memory is not automatically action-safe. The literature is much stronger on memory creation/retrieval than revocation and recovery; the cited survey reports only 12 of 89 papers address revocation and 6 address recovery.
+
+Artifacts:
+- research/automation_pass35_2026-11-20.md
+- research/claim_evidence_matrix_pass35_addendum.md
+- research/contradictions_open_problems_pass35.md
+- mathematics/pass35_collective_memory_governance.md
+- experiments/pass35_collective_memory_backlog.md
+- falsification/pass35_collective_memory.md
+- sources/pass35_source_ledger.md
+- literature_map/pass35_collective_memory.md
+
 **Pass 34 — 2026-11-19** investigates the connective tissue as a reliability-critical information network. New evidence covers silent semantic/partial-content communication failures (When Messages Go Wrong, arXiv preprint), runtime API fault injection (AgentChaos, ASE 2026), role-conditioned selective memory routing (RCR-Router, Findings EMNLP 2026), adaptive typed-graph/natural-language handoff (Routed Graph Handoff, Findings EMNLP 2026), collaboration-aware routing (RouterHGC, Findings ACL 2026), and trace-anchored causal repair versus stochastic reruns (Repair or Resample, arXiv preprint).
 
 The central conclusion is that resilience depends on preserving trustworthy information dependencies, not merely adding network edges. Selective and hybrid communication now provide strong baselines for the Treatise's continuous latent bloodstream. Alternative routes help only when they retain an unaffected evidence path; copies of the same corrupted source do not create independent evidence. Retrying is not proof of repair.
