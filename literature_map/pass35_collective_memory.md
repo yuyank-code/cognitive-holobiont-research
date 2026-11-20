@@ -5,7 +5,7 @@
 ### Distributed memory and continuity
 - UMA (EMNLP 2026): proactive structured memory maintenance and one-to-many future QA; a strong single-agent baseline.
 - AMA-Bench / AMA-Agent (ICML 2026): long-horizon agent trajectories and causal/objective memory; similarity retrieval alone is insufficient.
-- TRACE (arXiv, Sep 2026): temporal admission when an agent returns to an evolving team.
+- TRACE (arXiv, Sep 2026): temporal admission when an agent returns to an evolving team; actor/metric/subset-dependent, not uniformly best across all its own benchmark tables.
 - From Private Experience to Collective State (preprint survey, Sep 2026): OTGE lifecycle taxonomy and quantitative map of formation/maintenance gaps.
 
 ### Collective state, provenance and authority
