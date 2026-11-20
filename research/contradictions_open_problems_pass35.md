@@ -84,3 +84,5 @@ A Narrative Thread may help continuity, but a compact learned state is not proof
 - Apply revocation and recovery to affected descendants, holders and decisions.
 - Avoid blind hard deletion; quarantine, supersede, revalidate and retain audit history where appropriate.
 - Evaluate false admission, under-admission, false revocation, privacy leakage and recovery cost together.
+
+16. **TRACE is not uniformly dominant across its own evaluations:** actor-specific STALE aggregation and ManBench-Return favor it, but a separate STALE Type II subset table reports CUPMem at 80.56 overall versus TRACE at 58.89; the authors also state it does not consistently lead on Memora. Treat its benefit as condition-dependent and account for token cost.
