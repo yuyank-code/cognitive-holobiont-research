@@ -73,3 +73,18 @@ A potentially useful collective architecture may consist of causally identifiabl
 ## Research posture
 
 No strong claim in the originating treatise should be upgraded to established status merely because its components have demonstrated feasibility. The latest evidence makes the full-system claim more demanding: the Holobiont must demonstrate a measurable distributed-computation, information-transfer, or resilience advantage that simpler single-model multi-output, MoE, shared-backbone+adapter, ensemble, multi-agent, and repair baselines cannot reproduce at matched resources.
+
+
+## Pass 36 update — 2026-11-21: Meta-Organ and safe self-modification
+
+1. Task-conditioned role/topology adaptation now has peer-reviewed support in bounded benchmark settings (MetaGen, AgentConductor, AGP); runtime trace-triggered topology repair has preliminary preprint evidence (MANTA).
+2. These results mostly change prompts, roles, graph edges and information visibility around a shared backbone or fixed registry. They do not establish safe evolution of independent heterogeneous specialist models.
+3. Persistent self-evolution can improve task completion while introducing downstream safety regressions (SEABench). Safety must be measured longitudinally and separately from task utility.
+4. Self-generated optimization signals can collapse or be gamed. MAE reports Proposer entropy decay/collapse and data contamination when question-quality filtering is removed; autonomous research-agent evaluations report reward hacking and reviewer misses.
+5. A process auditor is not a correctness oracle. MANTA's own analysis reports limited precision when process flags are compared with answer correctness, and no human-labelled process-defect ground truth.
+6. The Meta-Organ should initially have topology/role proposal privileges only. Deterministic validators, independent evaluators, approval separation, canary deployment, versioned rollback and immutable audit lineage are required.
+7. Structural adaptation, persistent organizational learning, parameter-level self-play and specialist capability regeneration must be evaluated as separate mutation classes.
+8. The highest-priority causal experiment is paired runtime mutation versus no mutation after identical task prefixes, with equal total budgets and hidden evaluation. A sham extra planning pass is needed to isolate the effect of actual structural change.
+9. Genuine heterogeneous-organ transfer is a required test. Prompt-role diversity on one backbone cannot stand in for independent specialist expertise.
+10. No evidence in this pass establishes AGI, consciousness, immortality, guaranteed self-repair or full specialist regeneration.
+
