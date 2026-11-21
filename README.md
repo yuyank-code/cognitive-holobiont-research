@@ -69,6 +69,21 @@ Each substantive research pass should:
 
 The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's initial vision and hypothesis specification. It is **not** treated as established scientific fact.
 
+**Pass 36 — 2026-11-21** investigates the Meta-Organ and safe recursive self-modification. New evidence includes MetaGen (Findings EMNLP 2026), Multi-Agent Evolve (EMNLP 2026), AgentConductor (ICML 2026), Adaptive Graph Pruning (ECAI proceedings), MANTA (preprint), SEABench (preprint), an evolution-native security analysis, and a study of reward hacking in autonomous research agents.
+
+The central conclusion is that task-conditioned role/topology adaptation and bounded runtime graph repair now have experimental support in selected settings. But these methods mostly adapt text-level roles or communication graphs around a shared backbone; they do not demonstrate safe evolution of a heterogeneous population of independent specialist organs. Persistent evolution can also collapse or create downstream safety regressions. The proposed Meta-Organ should therefore be a least-privilege proposal-and-validation service, with typed mutations, deterministic schema/permission checks, sandbox replay, independent evaluation, canary deployment and verified rollback. Start with topology-only changes; do not grant direct weight, evaluator, permission or constitutional write access.
+
+Artifacts:
+- research/automation_pass36_2026-11-21.md
+- research/claim_evidence_matrix_pass36_addendum.md
+- research/contradictions_open_problems_pass36.md
+- mathematics/pass36_safe_meta_organ.md
+- experiments/pass36_meta_organ_backlog.md
+- falsification/pass36_self_modification.md
+- sources/pass36_source_ledger.md
+- literature_map/pass36_meta_organ_evolution.md
+- architecture/pass36_governed_meta_organ.md
+
 ## Latest research pass
 
 **Pass 35 — 2026-11-20** investigates the Hippocampus, Narrative Thread and shared-memory vision as a problem of governed collective state. New evidence includes the OTGE survey of 89 LLM-agent papers, UMA (EMNLP 2026), AMA-Bench (ICML 2026), TRACE, MemTX, MAPLE-Guard, MemoryDojo, MANBENCH (ICLR 2026) and provenance-preserving memory controls.
