@@ -88,3 +88,18 @@ No strong claim in the originating treatise should be upgraded to established st
 9. Genuine heterogeneous-organ transfer is a required test. Prompt-role diversity on one backbone cannot stand in for independent specialist expertise.
 10. No evidence in this pass establishes AGI, consciousness, immortality, guaranteed self-repair or full specialist regeneration.
 
+
+
+## Pass 37 update — 2026-11-22: task-conditioned collective value
+
+1. Multi-agent value is task-contingent, not monotonic in agent count. Parallelism, evidence complementarity, context limits, dependency depth and verification determine whether collaboration pays.
+2. Equal-reasoning-token experiments provide a serious negative control: single-agent systems can match or outperform tested MAS on multi-hop reasoning. This does not settle private-evidence, parallel-tool or fault-resilience regimes.
+3. Controlled workflow comparisons show that pooled multi-agent wins are uncommon across broad suites; a narrow evolving workflow can win at higher realized token use, while other workflows regress despite more tokens. Shared step limits must not be mislabeled as equal-token budgets.
+4. Orchestration-plan simulation can screen information-transfer failures cheaply, but current real-execution validation is small and framework-dependent; use it before, not instead of, end-to-end evaluation.
+5. PID-style emergence/synergy measures can distinguish group-level structure in minimal coordination games, but emergence is not synonymous with task-level performance or durable specialist capability.
+6. Edge-specific collaboration and heterogeneous model assignment are promising neighboring mechanisms, but current evidence does not establish a persistent federation of independently trained organs beating a strong single-agent frontier.
+7. The router should choose among single-locus, parallel, centralized/hybrid and persistent-federation modes. The ~45% baseline-accuracy pattern in one scaling study is not a universal threshold.
+8. Resource parity is a vector: compute, total tokens, latency, memory/context, communication bandwidth, information/tool access and verification budget. Report Pareto frontiers rather than claiming parity from per-call limits.
+9. The decisive causal test is private-evidence partition with ownership swaps, ablations, equal-budget single-model union-of-evidence controls, best-of-K and independent verification.
+10. A positive synergy statistic must predict held-out external utility after controlling for compute, model strength, communication volume and selection quality.
+11. No evidence in this pass establishes universal multi-agent superiority, AGI, consciousness, immortality, full regeneration or a validated Holobiont-wide collective advantage.
