@@ -24,3 +24,19 @@ The full claim—safe long-horizon evolution of heterogeneous specialist organs,
 
 ## Research discipline
 Follow citation chains; preserve negative and null findings; distinguish peer-reviewed results from preprints; match total resources and information access; measure privacy leakage and benign false rejection separately; use randomized interventions for causal claims; distinguish answer diversity, correctness dependence, unique information recovered, and task utility; never infer Holobiont-specific synergy from message volume, consensus, entropy, or trace graphs alone.
+
+
+## Pass 37 — 2026-11-22: task-conditioned collective advantage
+
+The key question is whether a federation creates causal, resource-adjusted value beyond a strong single model, best-of-K, multi-output/self-conditioning, MoE/router and conventional MAS. New evidence is explicitly mixed: parallelizable tasks can benefit from coordination, while sequential or compact fully observed tasks can lose to a single model. Measured emergence/synergy is not automatically task utility. The strongest next step is a private-evidence partition with ownership swaps, matched multi-dimensional budgets and external verification.
+
+Artifacts:
+- research/automation_pass37_2026-11-22.md
+- research/claim_evidence_matrix_pass37_addendum.md
+- research/contradictions_open_problems_pass37.md
+- mathematics/pass37_collective_value_and_budget_parity.md
+- experiments/pass37_federation_advantage_backlog.md
+- falsification/pass37_collective_advantage.md
+- sources/pass37_source_ledger.md
+- literature_map/pass37_collective_intelligence_evaluation.md
+- architecture/pass37_task_conditioned_federation.md
