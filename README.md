@@ -129,3 +129,21 @@ Earlier research:
 ## Research discipline
 
 Preserve null and contradictory evidence. Match total resources and information access. Separate temporal currency, evidence support, authorization, retrieval, verified utility, fault recovery, and total cost. Do not infer Holobiont-specific synergy from message volume, consensus, provenance, or benchmark headline scores alone.
+
+
+**Pass 37 — 2026-11-22** investigates whether the Cognitive Holobiont's federation creates measurable value beyond extra inference compute, parallel sampling or better orchestration. New evidence includes *Towards a Science of Scaling Agent Systems* (arXiv preprint), Tran & Kiela's equal-thinking-token comparison (preprint), BenchAgent (preprint), OrchBench (preprint), SC-MAS (preprint), Riedl's *Emergent Coordination in Multi-Agent Language Models* (ICLR 2026), a Pareto test-time-scaling study (ACL 2026 Student Research Workshop), and a peer-reviewed compact-context rover benchmark (Frontiers, July 2026).
+
+The central conclusion is that multi-agent value is task-contingent, not monotonic in agent count. Parallelizable subtasks and genuinely complementary/private evidence can justify federation; compact fully observed tasks and strict sequential reasoning can lose to a single strong model after coordination overhead. Measured emergence or information-theoretic synergy does not automatically imply external task utility. Resource parity must be treated as a vector (compute, tokens, latency, context, bandwidth, information/tools and verifier budget), and claims must survive best-of-K, single-model multi-output and MoE/router baselines.
+
+The proposed intermediate architecture is a task-conditioned federation with single-locus, parallel-evidence, centralized/hybrid and persistent-federation modes. The next decisive experiment is a private-evidence partition with ownership swaps and a multi-dimensional resource frontier. No universal agent-count threshold or general superiority claim is supported.
+
+Artifacts:
+- research/automation_pass37_2026-11-22.md
+- research/claim_evidence_matrix_pass37_addendum.md
+- research/contradictions_open_problems_pass37.md
+- mathematics/pass37_collective_value_and_budget_parity.md
+- experiments/pass37_federation_advantage_backlog.md
+- falsification/pass37_collective_advantage.md
+- sources/pass37_source_ledger.md
+- literature_map/pass37_collective_intelligence_evaluation.md
+- architecture/pass37_task_conditioned_federation.md
