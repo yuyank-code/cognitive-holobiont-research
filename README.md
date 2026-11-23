@@ -147,3 +147,21 @@ Artifacts:
 - sources/pass37_source_ledger.md
 - literature_map/pass37_collective_intelligence_evaluation.md
 - architecture/pass37_task_conditioned_federation.md
+
+
+**Pass 38 — 2026-11-23** investigates effective organ independence, response diversity and common-mode failure. New evidence includes Morante & Romero García-Rubio's *Correlation limits the reliability of ensemble decision making with large language models* (Discover Informatics, 4 November 2026), Tieman & Markou's output-derived generative-process diversity audit (arXiv preprint), Donghwan Kim's capability-controlled diversity-metric audit (arXiv preprint), D-FUSEr (ICML 2026), HiddenBench (ICML 2026), and Self-Anchored Consensus (preprint).
+
+The central conclusion is that **functional complementarity and response diversity are different objectives**. Complementary specialist organs add distinct capabilities or private evidence; redundant backups for overlapping critical functions should fail differently under matched perturbations. Provider count, model count, semantic output distance and prompt variation do not establish independent failure behavior. The new effective-voter formula is a variance-based diagnostic under explicit assumptions, not a universal information or intelligence count.
+
+The proposed Resilience-Aware Organ Population maintains a capability map, a task/failure-specific co-failure map, and a dependency/provenance graph spanning weights, data lineage, evaluators, prompts, memory, codecs, hypernetworks, tools and infrastructure. The next decisive milestone is an organ-independence audit followed by common-mode fault injection and repair tests under shared-dependency compromise.
+
+Artifacts:
+- research/automation_pass38_2026-11-23.md
+- research/claim_evidence_matrix_pass38_addendum.md
+- research/contradictions_open_problems_pass38.md
+- mathematics/pass38_effective_organ_independence.md
+- experiments/pass38_common_mode_diversity_backlog.md
+- falsification/pass38_independence_and_resilience.md
+- sources/pass38_source_ledger.md
+- literature_map/pass38_effective_diversity.md
+- architecture/pass38_resilience_aware_organ_population.md
