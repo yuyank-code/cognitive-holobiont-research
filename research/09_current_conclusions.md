@@ -1,4 +1,4 @@
-# Current Conclusions — 2026-09-11
+# Current Conclusions — updated 2026-11-23 (baseline established 2026-09-11)
 
 ## High-confidence conclusions
 
@@ -103,3 +103,20 @@ No strong claim in the originating treatise should be upgraded to established st
 9. The decisive causal test is private-evidence partition with ownership swaps, ablations, equal-budget single-model union-of-evidence controls, best-of-K and independent verification.
 10. A positive synergy statistic must predict held-out external utility after controlling for compute, model strength, communication volume and selection quality.
 11. No evidence in this pass establishes universal multi-agent superiority, AGI, consciousness, immortality, full regeneration or a validated Holobiont-wide collective advantage.
+
+
+## Pass 38 update — 2026-11-23: effective organ independence and common-mode failure
+
+1. Functional complementarity and response diversity are distinct. Complementary organs should add unique capability/evidence; redundant backups for the same function should exhibit different failure responses under matched perturbations.
+2. Model count, provider count, prompt diversity, semantic output distance and parameter distance do not establish independent failure behavior.
+3. Correctness/error correlation can cap variance-based effective voter count. The equicorrelation formula is N_eff = N/[1+(N-1)rho], but it assumes equal competence and common pairwise correlation and is not a universal count of information or intelligence.
+4. Correlation must be measured per task family and perturbation/failure mode. A single global number can conceal clustered or higher-order common-mode failures.
+5. Different model families can reduce measured correlation relative to same-model samples/personas, but the November 2026 proof-of-concept still finds only about two effective voters among five cross-provider models; equal-weight plurality remains below the strongest member.
+6. Output-derived NCD residuals are a promising preprint-level predictor of correlated wrong-answer agreement beyond semantic distance and capability, but they do not recover internal model mechanisms and the association is not causal.
+7. Standard diversity measures can be heavily capability-confounded. Selection claims must be evaluated against the strongest member on held-out items and with capability controls.
+8. D-FUSEr provides peer-reviewed evidence that targeted error-distribution shaping can improve tested aggregation/refinement, but this is not evidence that deliberately inducing errors is safe for critical organs.
+9. HiddenBench shows that complementary private information can remain unused unless agents actively elicit what others know. Functional complementarity does not automatically become collective utility.
+10. Receiver-side Byzantine filtering and robust graph assumptions can preserve information under bounded threat models, but do not guarantee truth when evaluators share blind spots.
+11. The organ registry should track model/data lineage, prompts, memory, evaluators, codecs, hypernetworks, tools and infrastructure. Unknown provenance must remain unknown, not be assumed independent.
+12. The next decisive step is an organ-independence audit followed by common-mode fault injection and repair tests under shared-dependency compromise.
+13. No evidence in this pass establishes a universal effective-organ count, universal ensemble advantage, full Holobiont resilience, complete regeneration, AGI, consciousness or immortality.
