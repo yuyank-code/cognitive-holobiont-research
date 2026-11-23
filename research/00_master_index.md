@@ -1,6 +1,6 @@
 # Master Research Index
 
-Latest committed pass: **Pass 36 — 2026-11-21**. The originating Treatise/PDF remains a hypothesis/specification, not established fact.
+Latest committed pass: **Pass 38 — 2026-11-23**. The originating Treatise/PDF remains a hypothesis/specification, not established fact.
 
 ## Current synthesis
 
@@ -40,3 +40,23 @@ Artifacts:
 - sources/pass37_source_ledger.md
 - literature_map/pass37_collective_intelligence_evaluation.md
 - architecture/pass37_task_conditioned_federation.md
+
+
+## Pass 38 — 2026-11-23: effective organ independence and common-mode failure
+
+The central refinement is to separate functional complementarity from response diversity. Complementary organs add unique capabilities or private evidence; redundant organs covering the same critical function should fail differently under matched perturbations. Model/provider count and semantic distance are not independence guarantees.
+
+A new open-access journal article gives a variance-based effective-voter formula under exchangeable/equal-competence assumptions and a small MMLU proof-of-concept. Two preprints add output-derived process-diversity prediction and a capability-controlled audit showing that several diversity metrics are confounded with model strength. ICML 2026 evidence on D-FUSEr and HiddenBench adds, respectively, an error-shaping intervention and a warning that complementary private information is not automatically elicited. SAC remains conditional on receiver evaluation and graph assumptions.
+
+The proposed Resilience-Aware Organ Population uses a capability map, task/failure-specific co-failure map and dependency/provenance graph. The next milestone is an organ-independence audit followed by common-mode fault injection and repair tests under shared-dependency compromise.
+
+Artifacts:
+- research/automation_pass38_2026-11-23.md
+- research/claim_evidence_matrix_pass38_addendum.md
+- research/contradictions_open_problems_pass38.md
+- mathematics/pass38_effective_organ_independence.md
+- experiments/pass38_common_mode_diversity_backlog.md
+- falsification/pass38_independence_and_resilience.md
+- sources/pass38_source_ledger.md
+- literature_map/pass38_effective_diversity.md
+- architecture/pass38_resilience_aware_organ_population.md
