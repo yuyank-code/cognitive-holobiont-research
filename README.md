@@ -69,6 +69,25 @@ Each substantive research pass should:
 
 The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's initial vision and hypothesis specification. It is **not** treated as established scientific fact.
 
+## Latest research pass
+
+**Pass 39 — 2026-11-24** investigates the Treatise's connective tissue: whether hidden representations transfer example-specific information across specialist organs, when latent channels beat text/typed evidence, and how to secure the payloads. New evidence includes two causal audits of latent communication (arXiv preprints), dense heterogeneous KV alignment (preprint), LatCom (EMNLP 2026), HyLaT (EMNLP 2026), architecture-dependent activation transfer (preprint), BOUNDARY_SYNC (preprint), and KV-cache integrity analysis (preprint).
+
+The central conclusion is that latent transfer is conditionally feasible, not a universal shared language. Native KV relay can carry sender-private information when the receiver genuinely lacks it, but natural benchmark gains can be generic cache/interface effects rather than example-specific content. Learned cross-model adapters work for selected pairs, while other activation-transfer tests fail at the generation level. Latent compression and hybrid latent-text protocols are useful peer-reviewed efficiency/interface baselines, but remain limited by model size, same-family alignment, topology and opaque latent semantics. A text verifier cannot certify hidden-state payloads; transport authenticity and endpoint truthfulness are separate.
+
+The recommended near-term design is a selective, auditable hybrid channel: local private reasoning by default; typed provenance and visible commitments as the control plane; latent transfer only when receiver necessity and measured utility justify it; pair-specific adapters with held-out validation; authenticated transport; and fail-closed text/typed-evidence fallback.
+
+Artifacts:
+- research/automation_pass39_2026-11-24.md
+- research/claim_evidence_matrix_pass39_addendum.md
+- research/contradictions_open_problems_pass39.md
+- mathematics/pass39_latent_channel_causal_value.md
+- experiments/pass39_latent_channel_audit_backlog.md
+- falsification/pass39_latent_communication.md
+- sources/pass39_source_ledger.md
+- literature_map/pass39_latent_communication.md
+- architecture/pass39_auditable_hybrid_connective_tissue.md
+
 **Pass 36 — 2026-11-21** investigates the Meta-Organ and safe recursive self-modification. New evidence includes MetaGen (Findings EMNLP 2026), Multi-Agent Evolve (EMNLP 2026), AgentConductor (ICML 2026), Adaptive Graph Pruning (ECAI proceedings), MANTA (preprint), SEABench (preprint), an evolution-native security analysis, and a study of reward hacking in autonomous research agents.
 
 The central conclusion is that task-conditioned role/topology adaptation and bounded runtime graph repair now have experimental support in selected settings. But these methods mostly adapt text-level roles or communication graphs around a shared backbone; they do not demonstrate safe evolution of a heterogeneous population of independent specialist organs. Persistent evolution can also collapse or create downstream safety regressions. The proposed Meta-Organ should therefore be a least-privilege proposal-and-validation service, with typed mutations, deterministic schema/permission checks, sandbox replay, independent evaluation, canary deployment and verified rollback. Start with topology-only changes; do not grant direct weight, evaluator, permission or constitutional write access.
@@ -84,7 +103,7 @@ Artifacts:
 - literature_map/pass36_meta_organ_evolution.md
 - architecture/pass36_governed_meta_organ.md
 
-## Latest research pass
+## Earlier research pass details
 
 **Pass 35 — 2026-11-20** investigates the Hippocampus, Narrative Thread and shared-memory vision as a problem of governed collective state. New evidence includes the OTGE survey of 89 LLM-agent papers, UMA (EMNLP 2026), AMA-Bench (ICML 2026), TRACE, MemTX, MAPLE-Guard, MemoryDojo, MANBENCH (ICLR 2026) and provenance-preserving memory controls.
 
