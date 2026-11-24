@@ -3,16 +3,16 @@
 ## High-confidence conclusions
 
 1. Modular specialization and conditional computation are mature ideas; modern MoE is a primary baseline against which Holobiont novelty must be tested.
-2. Heterogeneous models can be made interoperable through learned interface maps/stitching without requiring one globally shared latent geometry.
+2. Some heterogeneous model pairs can be made interoperable through learned interface maps/stitching, but transfer is pair-, architecture-, task- and context-dependent; no universal shared latent geometry or semantic interchangeability is established.
 3. Hypernetworks can generate neural weights or parameter-efficient adaptations, but this does not establish lossless regeneration of arbitrary unique capabilities.
 4. Ensembles and heterogeneous aggregation can improve reliability in bounded settings, but correlated/common-cause errors remain a major limitation.
 5. Agreement/consensus is not equivalent to semantic truth; evidence-weighted inference, provenance, confidence, dissent preservation, selection, and abstention are more defensible primitives.
 6. The shared-versus-independent structure tradeoff is a first-order design constraint, and shared training can actively overwrite specialization.
 7. Functional diversity cannot be inferred from parameter diversity, routing diversity, agent count, or one embedding metric alone.
-8. Latent communication is a credible engineering mechanism and recent causal audits support sender/example-specific transfer in receiver-private-information regimes, but latent relay gains are not universally sender-specific.
+8. Latent communication is conditionally feasible: native KV relay can transfer sender-private information when the receiver needs it, but gains on receiver-redundant tasks may be generic cache/interface effects rather than example-specific content. Separate-agent value must be tested against compute-matched receiver self-generation.
 9. Raw agent count is a poor predictor of collective utility. Effective independent evidence/channel count is a more promising abstraction, though not yet a validated universal law.
 10. MoE expert routing is not equivalent to durable organ identity; specialization retention under continued training is itself an empirical variable.
-11. Large latent-channel performance effects are not sufficient evidence of novel information transfer; matched message controls are now a required causal standard.
+11. Large latent-channel performance effects are not sufficient evidence of novel information transfer; true-versus-deranged, no-message, intact-no-private and compute-matched self-substitution controls are required.
 12. Communication density is not a proxy for distributed computation; topology, integration, and dependency structure matter.
 13. Candidate diversity and selection/integration quality are separable bottlenecks. Diversity can help or hurt depending on whether the selector can exploit it.
 14. Long-horizon coordination remains substantially harder than short-horizon information exchange; current evidence does not support naive scaling as a route to collective cognition.
@@ -120,3 +120,19 @@ No strong claim in the originating treatise should be upgraded to established st
 11. The organ registry should track model/data lineage, prompts, memory, evaluators, codecs, hypernetworks, tools and infrastructure. Unknown provenance must remain unknown, not be assumed independent.
 12. The next decisive step is an organ-independence audit followed by common-mode fault injection and repair tests under shared-dependency compromise.
 13. No evidence in this pass establishes a universal effective-organ count, universal ensemble advantage, full Holobiont resilience, complete regeneration, AGI, consciousness or immortality.
+
+
+## Pass 39 update — 2026-11-24: causal latent communication and auditable connective tissue
+
+1. Latent communication is conditionally feasible, not a universal shared language. Native KV relay transmits sender-private, example-specific information in calibrated receiver-necessity settings.
+2. A true-versus-zero cache effect does not establish example-specific content transfer. True-versus-deranged payload interventions separate the pairing effect from generic cache/interface effects.
+3. Example-specific content and separate-agent value are distinct. The sender must be compared with a receiver-generated alternative under matched compute.
+4. Cross-model KV/activation alignment is pair-, architecture-, context- and task-dependent. Positive representation similarity or retrieval does not guarantee causal generation-level transfer.
+5. LatCom (EMNLP 2026) supports joint multi-sender latent compression for efficiency in same-family Qwen3 settings, but fixed-slot compression can discard detail and heterogeneity remains open.
+6. HyLaT (EMNLP 2026) supports a hybrid latent-text protocol for multi-round communication in bounded small-model settings. Text commitments improve compatibility and observability, but do not make latent payload semantics transparent.
+7. Dense KV alignment can transfer across selected Qwen sizes and one Mistral-to-Qwen pair, including a three-agent document-sharing task, but requires pair-specific adapters and incurs large payload/storage costs. The FLOPs estimate omits transport and adapter maintenance.
+8. Communication can homogenize responses. Current coupling measurements have confounds and limited task coverage; diversity retention must be measured in the actual organ population.
+9. Latent payload integrity is separate from endpoint truthfulness. HMAC/signatures can protect post-handoff transport under uncompromised keys, but cannot certify that a compromised specialist generated truthful state.
+10. The recommended near-term connective tissue is selective and hybrid: private local state by default; typed provenance/commitments as control plane; latent transfer only when receiver necessity and measured utility justify it; pair-specific adapters; authenticated transport; fail-closed text/typed fallback.
+11. The next decisive experiment is a multi-family receiver-necessity audit with true/deranged/intact-no-private/zero/random/self-substitution arms, held-out tasks, independent evaluation and full cost/security accounting.
+12. No evidence in this pass establishes universal cross-architecture communication, shared semantic meaning, a universal latent language, complete Holobiont cognition, AGI, consciousness, immortality or full regeneration.
