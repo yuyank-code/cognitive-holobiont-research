@@ -71,6 +71,25 @@ The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's
 
 ## Latest research pass
 
+**Pass 40 — 2026-11-25** investigates the Treatise's Hypernetwork DNA and self-healing ambition by separating post-hoc repair, procedural adaptation, specialist merging, behavioral distillation and peer-assisted regeneration.
+
+New evidence includes HyperRepair (arXiv preprint), Self-Direction (arXiv preprint), Spectral Unforgetting (arXiv preprint), PRISM (arXiv preprint), an information-theoretic study of model extraction and capability transfer (arXiv preprint), and ICML 2026 work on loss of plasticity and residual fault correction.
+
+The central conclusion is that **repairing a surviving model is not the same as regenerating a missing specialist**. HyperRepair retains the target fine-tuned model and a shared pretrained-backbone lineage; Spectral Unforgetting requires both base and fine-tuned checkpoints; Self-Direction stores procedural adapters for a surviving base model; PRISM merges available specialist checkpoints; and behavioral distillation requires a queryable teacher or informative trajectories. None demonstrates the distinctive Holobiont claim of recovering a deleted heterogeneous specialist from surviving peers after its privileged artifacts are removed.
+
+The next decisive experiment is a capability-deletion and information-survival matrix: remove the target checkpoint, adapters, base, data, teacher access, traces and memory in controlled combinations; allow only declared surviving organs to recover; and compare with a strong fallback, backup, repair, retrieval, merge, distillation and retraining baselines under matched resources.
+
+Artifacts:
+- research/automation_pass40_2026-11-25.md
+- research/claim_evidence_matrix_pass40_addendum.md
+- research/contradictions_open_problems_pass40.md
+- mathematics/pass40_capability_recoverability.md
+- experiments/pass40_regeneration_audit_backlog.md
+- falsification/pass40_capability_regeneration.md
+- sources/pass40_source_ledger.md
+- literature_map/pass40_recoverability_and_regeneration.md
+- architecture/pass40_recovery_tiers_and_reconstruction_protocol.md
+
 **Pass 39 — 2026-11-24** investigates the Treatise's connective tissue: whether hidden representations transfer example-specific information across specialist organs, when latent channels beat text/typed evidence, and how to secure the payloads. New evidence includes two causal audits of latent communication (arXiv preprints), dense heterogeneous KV alignment (preprint), LatCom (EMNLP 2026), HyLaT (EMNLP 2026), architecture-dependent activation transfer (preprint), BOUNDARY_SYNC (preprint), and KV-cache integrity analysis (preprint).
 
 The central conclusion is that latent transfer is conditionally feasible, not a universal shared language. Native KV relay can carry sender-private information when the receiver genuinely lacks it, but natural benchmark gains can be generic cache/interface effects rather than example-specific content. Learned cross-model adapters work for selected pairs, while other activation-transfer tests fail at the generation level. Latent compression and hybrid latent-text protocols are useful peer-reviewed efficiency/interface baselines, but remain limited by model size, same-family alignment, topology and opaque latent semantics. A text verifier cannot certify hidden-state payloads; transport authenticity and endpoint truthfulness are separate.
