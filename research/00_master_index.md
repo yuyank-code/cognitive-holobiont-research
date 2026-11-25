@@ -1,6 +1,6 @@
 # Master Research Index
 
-Latest committed pass: **Pass 39 — 2026-11-24**. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science.
+Latest committed pass: **Pass 40 — 2026-11-25**. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science.
 
 ## Current synthesis
 
@@ -9,6 +9,24 @@ The current strongest near-term architecture is a **task-conditioned, resilience
 Pass 39 narrows the connective-tissue claim: latent communication is conditionally feasible, but not a universal shared cognitive language. Causal audits show native KV relay can transfer example-specific private information when the receiver lacks it; on receiver-redundant natural tasks, a cache may improve performance through generic interface/computation effects without a meaningful true-versus-deranged pairing effect. Separate-agent value must also beat compute-matched receiver self-generation. Peer-reviewed LatCom and HyLaT support compression and hybrid protocols in bounded settings; cross-family alignment remains pair-specific and security-sensitive.
 
 The full Holobiont advantage remains unproven. The next decisive work is a multi-family, receiver-necessity audit with true/deranged/private-evidence/self-substitution controls, full cost accounting, and transport plus endpoint security tests.
+
+## Current recovery synthesis — Pass 40
+
+The Treatise's Hypernetwork DNA claim must be tested as **peer-assisted recovery after declared deletion**, not conflated with backup restoration, repair of a surviving model, procedural adapters, merging of available specialists or distillation from a still-queryable teacher. New preprints show bounded post-hoc repair and durable procedural learning; ICML 2026 work highlights plasticity risks under continual adaptation. No source in this pass demonstrates regeneration of a deleted heterogeneous specialist from surviving organs after its privileged artifacts are removed.
+
+The next decisive milestone is a capability-deletion/information-survival matrix with an offline evaluator vault, peer-specific contribution controls, a strong generalist fallback, and full accounting for checkpoints, data, traces, teacher access, adapters, hypernetworks, compute, storage and verification.
+
+## Pass 40 artifacts — 2026-11-25
+
+- Main report: research/automation_pass40_2026-11-25.md
+- Claim–evidence addendum: research/claim_evidence_matrix_pass40_addendum.md
+- Contradictions/open problems: research/contradictions_open_problems_pass40.md
+- Mathematics: mathematics/pass40_capability_recoverability.md
+- Experiment backlog: experiments/pass40_regeneration_audit_backlog.md
+- Falsification: falsification/pass40_capability_regeneration.md
+- Source ledger: sources/pass40_source_ledger.md
+- Literature map: literature_map/pass40_recoverability_and_regeneration.md
+- Architecture note: architecture/pass40_recovery_tiers_and_reconstruction_protocol.md
 
 ## Pass 39 artifacts — 2026-11-24
 
