@@ -136,3 +136,19 @@ No strong claim in the originating treatise should be upgraded to established st
 10. The recommended near-term connective tissue is selective and hybrid: private local state by default; typed provenance/commitments as control plane; latent transfer only when receiver necessity and measured utility justify it; pair-specific adapters; authenticated transport; fail-closed text/typed fallback.
 11. The next decisive experiment is a multi-family receiver-necessity audit with true/deranged/intact-no-private/zero/random/self-substitution arms, held-out tasks, independent evaluation and full cost/security accounting.
 12. No evidence in this pass establishes universal cross-architecture communication, shared semantic meaning, a universal latent language, complete Holobiont cognition, AGI, consciousness, immortality or full regeneration.
+
+
+## Pass 40 update — 2026-11-25: capability recovery versus peer-assisted regeneration
+
+1. HyperRepair (arXiv preprint) supports bounded hypernetwork-generated restoration of general capabilities in a surviving fine-tuned model. It assumes a shared pretrained-backbone family, a surviving target model/fingerprint and source repair training; it is not missing-organ regeneration.
+2. Self-Direction (arXiv preprint) supports persistent procedural adaptation from detected failures through small LoRA adapters while freezing the base. It requires useful failure feedback and routing; wrong-adapter selection can hurt, and textual skill memory remains a close baseline in one reported comparison.
+3. Spectral Unforgetting (arXiv preprint) repairs some fine-tuning-induced forgetting using both the base checkpoint and fine-tuned descendant. Its spectral signal/noise assumption can fail when useful update signal is diffuse.
+4. PRISM (arXiv preprint) can predict and repair some destructive merges of available shared-base specialists. Merging available models is not recovery of a missing specialist.
+5. Behavioral distillation can recover substantial task capability while a teacher remains queryable and informative trajectories can be collected. This is an information-transfer route, not information-free resurrection; same-family/same-scale evidence must not be generalized to arbitrary heterogeneous peers.
+6. Continual-learning plasticity is a recovery-system constraint: repeated adaptation can reduce future learnability. Track future-task plasticity alongside current capability and retention.
+7. Recovery claims must name the tier: rollback/replica, local repair, checkpoint-conditioned restoration, procedural adaptation, specialist merge, behavioral distillation, peer-assisted regeneration or exact parameter reconstruction.
+8. The distinctive Holobiont regeneration claim remains unproven. The decisive test removes target weights, adapters, base lineage, training data, teacher access and privileged traces in controlled combinations, then tests whether surviving peers add value beyond a strong fallback under matched resources.
+9. Exact weight recovery and behavioral capability recovery are separate objectives. Functional evaluation must include rare, OOD, adversarial, calibration and safety slices rather than average benchmark score alone.
+10. A hypernetwork is not an information source ex nihilo. Its training data, repair examples, shared base, evaluator and codec are dependencies that must be included in the surviving-information manifest and common-mode fault tests.
+11. The next milestone is a capability-deletion benchmark with an offline evaluator vault, factorial information-source ablations, peer ownership swaps, compute-matched self-generation, and full cost/provenance accounting.
+12. No evidence in this pass establishes exact-weight resurrection, peer-assisted recovery after complete information deletion, universal regeneration, full Holobiont self-healing, AGI, consciousness or immortality.
