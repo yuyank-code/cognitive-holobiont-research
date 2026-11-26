@@ -1,4 +1,4 @@
-# Current Conclusions — updated 2026-11-23 (baseline established 2026-09-11)
+# Current Conclusions — updated 2026-11-26 (baseline established 2026-09-11)
 
 ## High-confidence conclusions
 
@@ -152,3 +152,19 @@ No strong claim in the originating treatise should be upgraded to established st
 10. A hypernetwork is not an information source ex nihilo. Its training data, repair examples, shared base, evaluator and codec are dependencies that must be included in the surviving-information manifest and common-mode fault tests.
 11. The next milestone is a capability-deletion benchmark with an offline evaluator vault, factorial information-source ablations, peer ownership swaps, compute-matched self-generation, and full cost/provenance accounting.
 12. No evidence in this pass establishes exact-weight resurrection, peer-assisted recovery after complete information deletion, universal regeneration, full Holobiont self-healing, AGI, consciousness or immortality.
+
+
+## Pass 41 update — 2026-11-26: runtime resilience as a complete lifecycle
+
+1. Fault detection, root-cause localization, containment, state repair, independent validation and reintegration are separate measurable capabilities; do not collapse them into one recovery score.
+2. AES (IEEE eScience 2026) shows bounded worker self-correction for non-final format/tool faults, model-dependent propagation of logic faults, and catastrophic aggregator-level faults in its deterministic numerical workflow. The paper has an internal 194/198 job-count discrepancy and reports 184 completed results after 10 failed jobs.
+3. AgentChaosBench shows that zero-shot LLM diagnosis of runtime fault type and location is weak on its 275-trace, five-system preprint benchmark; paired clean references help selected fault classes but not guardrail bypass.
+4. Airlock supports provenance-guided selective containment after a supplied origin alert in its bounded threat model. It does not establish general autonomous detection; its trusted computing base, centralized coordinator, limited scale and lack of agent-memory rollback are material.
+5. ResonAct supports streaming runtime monitoring and policy-driven remediation, but detector false positives and recovery fractions vary sharply by workload. Recovery among detected failures is not retry success among initiated retries.
+6. Loud Failures/Quiet Failures shows that plausible well-formed wrong tool results are detected less reliably than explicit errors, and simple prompt instructions to check outputs do not solve the problem.
+7. System reliability depends on operational profile, common-cause failures and combiner reliability, not only the marginal quality of each organ.
+8. Apparent capability loss should be diagnosed at the deployed head/adapter/router and representation interfaces before labeling an organ irrecoverably damaged.
+9. The proposed Fault-Aware Recovery Control Plane should combine deterministic local egress enforcement, telemetry, provenance/taint closure, calibrated detection, selective quarantine, budgeted repair and independent re-entry validation.
+10. Heart/coordinator, provenance journal, authorization root, effect gateway and verifier are themselves critical components. Local enforcement must remain safe during central coordinator failure or partition.
+11. The decisive next experiment is a 3–5 organ fault-injection suite that independently varies fault type, fault location, alert timing, containment strategy and recovery strategy, including no-fault controls and silent semantic corruption.
+12. No evidence in this pass establishes complete autonomous self-healing, universal Byzantine tolerance, zero downtime, safe arbitrary organ regeneration, AGI, consciousness or immortality.
