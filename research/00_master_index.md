@@ -1,6 +1,6 @@
 # Master Research Index
 
-Latest committed pass: **Pass 40 — 2026-11-25**. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science.
+Latest committed pass: **Pass 41 — 2026-11-26**. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science.
 
 ## Current synthesis
 
@@ -62,3 +62,23 @@ Earlier passes 33–35 and 26–32 remain in their dated reports and supporting 
 ## Research discipline
 
 Follow citation chains; preserve negative/null results; label peer-reviewed work versus preprints; match total compute, memory, bandwidth, latency, information access and verifier budget; distinguish representation alignment from causal content transfer, task utility and separate-agent marginal value; separate transport integrity from endpoint truthfulness; never infer Holobiont-specific synergy from message volume, consensus, hidden-state similarity or a benchmark headline.
+
+
+## Pass 41 — 2026-11-26: end-to-end runtime resilience
+
+New evidence: AES (peer-reviewed IEEE eScience 2026), AgentChaosBench, Airlock, ResonAct, Loud Failures/Quiet Failures, operational-profile reliability modeling, and three-interface continual-learning diagnosis.
+
+The central conclusion is that **fault detection, localization, containment, recovery and reintegration are separate capabilities**. Controlled fault injection shows that workers may self-correct some non-final tool/format errors, while plausible logic errors can propagate and a faulty aggregator can destroy otherwise correct worker results. Runtime monitoring can improve completion but false-positive quarantine and incomplete recovery remain material. Provenance-guided selective containment can preserve healthy work after a valid origin alert, but current evidence relies on trusted runtime components and does not solve autonomous fault discovery or memory rollback.
+
+The proposed Fault-Aware Recovery Control Plane combines deterministic local effect enforcement, telemetry, provenance/taint closure, calibrated detection, selective quarantine, budgeted repair and independent re-entry validation. The control plane itself must be replicated or locally enforceable; Heart cannot be the sole safety authority.
+
+Artifacts:
+- research/automation_pass41_2026-11-26.md
+- research/claim_evidence_matrix_pass41_addendum.md
+- research/contradictions_open_problems_pass41.md
+- mathematics/pass41_runtime_reliability_and_recovery.md
+- experiments/pass41_fault_containment_recovery_backlog.md
+- falsification/pass41_end_to_end_resilience.md
+- sources/pass41_source_ledger.md
+- literature_map/pass41_runtime_resilience.md
+- architecture/pass41_fault_aware_recovery_control_plane.md
