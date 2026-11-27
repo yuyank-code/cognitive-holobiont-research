@@ -1,4 +1,4 @@
-# Current Conclusions — updated 2026-11-26 (baseline established 2026-09-11)
+# Current Conclusions — updated 2026-11-27 (baseline established 2026-09-11)
 
 ## High-confidence conclusions
 
@@ -168,3 +168,20 @@ No strong claim in the originating treatise should be upgraded to established st
 10. Heart/coordinator, provenance journal, authorization root, effect gateway and verifier are themselves critical components. Local enforcement must remain safe during central coordinator failure or partition.
 11. The decisive next experiment is a 3–5 organ fault-injection suite that independently varies fault type, fault location, alert timing, containment strategy and recovery strategy, including no-fault controls and silent semantic corruption.
 12. No evidence in this pass establishes complete autonomous self-healing, universal Byzantine tolerance, zero downtime, safe arbitrary organ regeneration, AGI, consciousness or immortality.
+
+
+## Pass 42 update — 2026-11-27: reliability contracts and graceful degradation
+
+1. Reliable capability is a path property, not merely final-answer accuracy or endpoint state. TraceProbe (peer-reviewed EMNLP 2026) finds unsafe intermediate actions in some endpoint-safe runs.
+2. The Holobiont needs explicit task, organ, action, delegation, recovery and service contracts. Each action should carry identity, authority, data scope, budget, preconditions, postconditions, evidence/approval and audit lineage.
+3. Delegated authority should be monotone: the child receives the stricter profile, intersected tool/memory scopes, accumulated approval obligations and a bounded budget. Concurrent children require atomic budget reservations so parallelism cannot multiply parent resources.
+4. Graceful degradation should use predeclared modes: full federation, communication-degraded, specialist-degraded, read-only/no-side-effects, and safe pause/abstain. Hard safety, authorization and provenance constraints must not weaken as availability falls.
+5. Policy Algebra (arXiv preprint) reports greater unsafe-event intervention and audit completeness, but also higher false intervention and latency and a 3.8 percentage-point lower task-completion rate on its finite workload. Governance trade-offs must be reported explicitly.
+6. MAS-FIRE (arXiv preprint) supports fault injection across 15 intra-/inter-agent fault types and finds closed-loop architectures mitigate some faults that collapse linear workflows. Semantically wrong but syntactically valid messages can evade structural filters.
+7. AgentTrace (arXiv preprint) shows promising trace-based root-cause ranking on 550 synthetic single-root scenarios with accurate logs. Multiple causes, missing logs and adversarial telemetry remain open.
+8. Compound AI System Reliability (arXiv preprint) identifies cross-component semantic failures and reports circuit-breaker/quality-gate/isolation gains, but its MTTR comparison uses unstructured monitoring and lacks standard retry-with-backoff as a stronger baseline.
+9. Non-atomic tool timeouts require verify-before-retry and idempotency support; a timeout does not prove the remote side effect failed.
+10. Report service reachability, safe completion, useful degraded completion, unsafe effects, false intervention, detection/localization time, recovery time, latency, cost and audit completeness separately. A single uptime or success number hides important failure modes.
+11. Heart may coordinate modes but cannot be the only safety authority. Local effect gateways must enforce action contracts during coordinator failure or partition; the policy root, journal, gateway and verifier are themselves fault-injection targets.
+12. The next decisive experiment is a 3–5 organ hidden-fault suite comparing predeclared degradation modes, retry/backoff, circuit breakers, quality gates, policy contracts and whole-system halt under matched budgets and multi-root/non-atomic faults.
+13. No evidence in this pass establishes zero downtime, universal graceful recovery, complete self-healing, AGI, consciousness or immortality.
