@@ -71,6 +71,27 @@ The originating document, The_Cognitive_Holobiont_Treatise.pdf, is the project's
 
 ## Latest research pass
 
+**Pass 42 — 2026-11-27** investigates reliability contracts and graceful degradation: how the Cognitive Holobiont should preserve safe, useful operation when organs, links, tools, verifiers or control-plane services are partially unavailable.
+
+New evidence includes TraceProbe (peer-reviewed EMNLP 2026), OpsAgent (IEEE ICAISET 2026; abstract-level review), and the arXiv preprints Policy Algebra, MAS-FIRE, AgentTrace, Compound AI System Reliability, Verified Tool Calls and the Trace-Based Assurance Framework.
+
+The central conclusion is that **reliable capability is a property of the complete execution path, while graceful degradation is a constrained choice among predeclared service modes**. Endpoint-safe results can hide unsafe intermediate actions. Delegation should narrow permissions and atomically conserve budgets. Circuit breakers and quality gates can limit cascades, but governance introduces false-intervention, latency and task-completion trade-offs. Non-atomic tool timeouts require postcondition verification before retry.
+
+The proposed architecture defines five modes: full federation, communication-degraded, specialist-degraded, read-only/no-side-effects, and safe pause/abstain. It must preserve hard safety, authorization, evidence and provenance constraints in every mode; if no admissible mode remains, it should pause rather than silently fabricate missing capability.
+
+Artifacts:
+- research/automation_pass42_2026-11-27.md
+- research/claim_evidence_matrix_pass42_addendum.md
+- research/contradictions_open_problems_pass42.md
+- mathematics/pass42_reliability_contracts_and_graceful_degradation.md
+- experiments/pass42_contracts_degraded_mode_backlog.md
+- falsification/pass42_graceful_degradation.md
+- sources/pass42_source_ledger.md
+- literature_map/pass42_reliability_contracts.md
+- architecture/pass42_contract_driven_graceful_degradation.md
+
+## Earlier research passes
+
 **Pass 40 — 2026-11-25** investigates the Treatise's Hypernetwork DNA and self-healing ambition by separating post-hoc repair, procedural adaptation, specialist merging, behavioral distillation and peer-assisted regeneration.
 
 New evidence includes HyperRepair (arXiv preprint), Self-Direction (arXiv preprint), Spectral Unforgetting (arXiv preprint), PRISM (arXiv preprint), an information-theoretic study of model extraction and capability transfer (arXiv preprint), and ICML 2026 work on loss of plasticity and residual fault correction.
