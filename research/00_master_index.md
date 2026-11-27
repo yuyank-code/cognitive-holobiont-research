@@ -1,6 +1,12 @@
 # Master Research Index
 
-Latest committed pass: **Pass 41 — 2026-11-26**. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science.
+Latest committed pass: **Pass 42 — 2026-11-27**. The originating Treatise/PDF remains the project's hypothesis/specification source, not established science.
+
+## Current synthesis — Pass 42
+
+The near-term architecture should be a task-conditioned, resilience-aware federation with explicit task/action contracts and a predeclared graceful-degradation ladder. Reliability is a path property: every action must satisfy identity, authority, data scope, budget, preconditions, required evidence and approval. Endpoint success does not erase unsafe intermediate actions. Delegation must narrow permissions and atomically conserve budgets; non-atomic external actions require postcondition verification before retry.
+
+The five modes are full federation, communication-degraded, specialist-degraded, read-only/no-side-effects, and safe pause/abstain. The mode selector may maximize useful task value only inside hard safety, authorization, provenance and resource constraints. If no mode is admissible, pause rather than silently fabricate missing capability. Local effect enforcement must remain safe if Heart or the central control plane fails.
 
 ## Current synthesis
 
@@ -82,3 +88,21 @@ Artifacts:
 - sources/pass41_source_ledger.md
 - literature_map/pass41_runtime_resilience.md
 - architecture/pass41_fault_aware_recovery_control_plane.md
+
+
+## Pass 42 — 2026-11-27: reliability contracts and graceful degradation
+
+New evidence: TraceProbe (peer-reviewed EMNLP 2026), OpsAgent (IEEE ICAISET 2026; abstract-level review), and the Policy Algebra, MAS-FIRE, AgentTrace, Compound AI System Reliability, Verified Tool Calls and Trace-Based Assurance arXiv preprints.
+
+The central conclusion is that reliable capability is a property of the complete execution path, while graceful degradation is a constrained choice among predeclared service modes. Trace-level evaluation exposes unsafe intermediate actions that endpoint-only metrics miss. Policy composition can narrow delegated authority and conserve budgets, but finite-workload governance gains trade off against task completion, false interventions and latency. Circuit breakers, semantic quality gates and isolation are promising, but reported MTTR gains need stronger retry/backoff baselines. Non-atomic tool failures require postcondition verification before retry.
+
+Artifacts:
+- research/automation_pass42_2026-11-27.md
+- research/claim_evidence_matrix_pass42_addendum.md
+- research/contradictions_open_problems_pass42.md
+- mathematics/pass42_reliability_contracts_and_graceful_degradation.md
+- experiments/pass42_contracts_degraded_mode_backlog.md
+- falsification/pass42_graceful_degradation.md
+- sources/pass42_source_ledger.md
+- literature_map/pass42_reliability_contracts.md
+- architecture/pass42_contract_driven_graceful_degradation.md
